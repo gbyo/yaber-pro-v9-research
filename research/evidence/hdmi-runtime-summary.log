@@ -1,0 +1,18 @@
+Sanitized HDMI runtime observation summary
+
+Tested path:
+- Newlink source ID: HDMI2 = 10
+- TV-input endpoint observed active: HDMI0000C2
+- Signal: 1920x1080
+- Scan: progressive during Game Mode test
+- SDR
+- Audio: LPCM, 48 kHz, 2 channels, 16-bit
+- CEC physical address: 0x2000
+- CEC OSD name observed for connected playback source: Apple TV
+
+Related source mapping observed:
+- HDMI1 = source ID 11
+- HDMI2 = source ID 10
+
+The Android TV-input layer exposed three HDMI endpoints even though the
+product UI presented fewer user-facing choices.
