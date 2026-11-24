@@ -1,0 +1,46 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 1115796 Realtime: 1115796
+
+** MEMINFO in pid 2519 [com.newlink.nlsource] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap      701      684        0     6208    10240     8077     2162
+  Dalvik Heap      602      600        0      218     1740     1228      512
+ Dalvik Other      191      188        0       32                           
+        Stack        4        4        0       24                           
+    Other dev        8        0        8        0                           
+     .so mmap      293       28        4      148                           
+    .dex mmap       40        0        0       12                           
+    .oat mmap       88        0        4        0                           
+    .art mmap     1057      508        0      320                           
+   Other mmap        4        0        0        5                           
+      Unknown       73       72        0      340                           
+        TOTAL    10368     2084       16     7307    11980     9305     2674
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1108
+         Native Heap:      684
+                Code:       36
+               Stack:        4
+            Graphics:        0
+       Private Other:      268
+              System:     8268
+ 
+               TOTAL:    10368       TOTAL SWAP PSS:     7307
+ 
+ Objects
+               Views:       27         ViewRootImpl:        0
+         AppContexts:        5           Activities:        1
+              Assets:        2        AssetManagers:        0
+       Local Binders:       25        Proxy Binders:       30
+       Parcel memory:        5         Parcel count:       20
+    Death Recipients:        1      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

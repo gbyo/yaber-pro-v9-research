@@ -1,0 +1,36 @@
+[?25l[0m[H[J[s[999C[999B[6n[uTasks: 203 total,   1 running, 195 sleeping,   0 stopped,   0 zombie            
+Mem:   1005092k total,   712424k used,   292668k free,     8016k buffers        
+Swap:   319032k total,    91864k used,   227168k free,   273472k cached         
+400%cpu   9%user   0%nice  16%sys 375%idle   0%iow   0%irq   0%sirq   0%host    
+[7m  PID USER         PR  NI VIRT [RES] SHR S %CPU  %MEM     TIME+ ARGS            [0m
+ 2439 system       -2   0 973M 108M  45M S  0.0  11.0   0:04.05 com.newlink.his+
+ 2939 system       -2   0 884M  52M  41M S  0.0   5.2   0:02.16 com.zhiying.set+
+ 1909 system       18  -2 1.1G  48M  38M S  0.0   4.9   0:58.77 system_server
+ 3053 u0_a6        20   0 814M  33M  29M S  0.0   3.3   0:00.24 com.android.pro+
+ 2519 system       20   0 828M  17M  13M S  0.0   1.7   0:01.61 com.newlink.nls+
+ 2110 system       20   0 827M  14M  11M S  3.1   1.4   0:03.28 com.hisilicon.r+
+ 2127 system       20   0 820M 7.4M 5.3M S  0.0   0.7   0:04.34 com.hisilicon.t+
+ 1708 system       -2  -8 130M 4.6M 3.4M S  0.0   0.4   0:06.59 surfaceflinger
+ 2048 u0_a11       20   0 816M 3.0M 2.3M S  0.0   0.3   0:00.27 com.hisilicon.a+
+ 1689 root         20   0  26M 2.8M 2.6M S  0.0   0.2   0:00.51 netd
+ 1701 wifi         20   0  10M 2.6M 2.4M S  0.0   0.2   0:00.39 android.hardwar+
+    1 root         20   0  15M 2.6M 1.8M S  0.0   0.2   0:01.16 init
+ 1591 system       20   0 8.4M 2.6M 2.3M S  0.0   0.2   0:00.96 hwservicemanager
+ 2254 wifi         20   0  11M 2.5M 2.1M S  0.0   0.2   0:00.42 aic_supplicant +
+ 1589 logd         30  10  12M 2.4M 2.0M S  0.0   0.2   0:01.52 logd
+ 1597 root         20   0  52M 2.2M 2.2M S  0.0   0.2   1:50.26 vendor.hisilico+
+ 1754 root         20   0 7.4M 2.2M 2.0M S  0.0   0.2   0:00.17 xirisvc2.3.0 ir+
+ 1698 root         20   0 6.8M 2.1M 2.0M S  0.0   0.2   0:00.06 android.hardwar+
+ 1593 root         20   0  18M 2.1M 2.0M S  0.0   0.2   0:09.41 vendor.hisilico+
+ 1696 system       20   0 9.1M 2.1M 2.0M S  0.0   0.2   0:00.05 android.hardwar+
+ 1590 system       20   0 5.7M 2.1M 1.9M S  0.0   0.2   0:00.38 servicemanager
+ 1767 cameraserver 20   0  30M 2.1M 2.0M S  0.0   0.2   0:00.50 cameraserver
+ 1700 system       20   0  22M 2.0M 2.0M S  0.0   0.2   0:02.17 android.hardwar+
+ 1707 root         -2   0 4.9M 2.0M 1.7M S  0.0   0.2   0:00.08 lmkd
+ 1726 root         20   0 4.7M 2.0M 1.8M S  0.0   0.2   0:00.09 ip6tables-resto+
+ 1744 root         20   0 9.3M 2.0M 1.9M S  0.0   0.2   0:00.48 android_ir_user
+ 1690 root         20   0 995M 2.0M 2.0M S  0.0   0.2   0:04.03 zygote
+ 1814 wifi         20   0  35M 1.9M 1.7M S  0.0   0.2   0:00.51 wificond
+ 1725 root         20   0 4.7M 1.9M 1.8M S  0.0   0.2   0:00.11 iptables-restor+
+ 1775 keystore     20   0  13M 1.9M 1.9M S  0.0   0.2   0:00.13 keystore /data/+
+[?25h[0m[1000;1H[K[?25h[0m[1000;1H[K

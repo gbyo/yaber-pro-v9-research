@@ -1,0 +1,163 @@
+
+~/ProjectorUI/research/native/libhitvservice.so:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+000f9f24 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base>:
+   f9f24:	b5b0      	push	{r4, r5, r7, lr}
+   f9f26:	b08c      	sub	sp, #48	@ 0x30
+   f9f28:	4605      	mov	r5, r0
+   f9f2a:	484e      	ldr	r0, [pc, #312]	@ (fa064 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x140>)
+   f9f2c:	460c      	mov	r4, r1
+   f9f2e:	2114      	movs	r1, #20
+   f9f30:	4478      	add	r0, pc
+   f9f32:	2200      	movs	r2, #0
+   f9f34:	2314      	movs	r3, #20
+   f9f36:	6800      	ldr	r0, [r0, #0]
+   f9f38:	6800      	ldr	r0, [r0, #0]
+   f9f3a:	900b      	str	r0, [sp, #44]	@ 0x2c
+   f9f3c:	a806      	add	r0, sp, #24
+   f9f3e:	f788 ef8e 	blx	82e5c <memset_s@plt>
+   f9f42:	b178      	cbz	r0, f9f64 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x40>
+   f9f44:	4948      	ldr	r1, [pc, #288]	@ (fa068 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x144>)
+   f9f46:	4a49      	ldr	r2, [pc, #292]	@ (fa06c <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x148>)
+   f9f48:	4b49      	ldr	r3, [pc, #292]	@ (fa070 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x14c>)
+   f9f4a:	4479      	add	r1, pc
+   f9f4c:	447a      	add	r2, pc
+   f9f4e:	447b      	add	r3, pc
+   f9f50:	e9cd 3000 	strd	r3, r0, [sp]
+   f9f54:	2006      	movs	r0, #6
+   f9f56:	f44f 73ab 	mov.w	r3, #342	@ 0x156
+   f9f5a:	f788 ec98 	blx	8288c <HiLog::PrintLog(ATV_LOG_PRIO_E, char const*, char const*, unsigned int, char const*, ...)@plt>
+   f9f5e:	f04f 35ff 	mov.w	r5, #4294967295	@ 0xffffffff
+   f9f62:	e067      	b.n	fa034 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x110>
+   f9f64:	f789 ecf0 	blx	83948 <HiDBOFact::GetDBO()@plt>
+   f9f68:	6869      	ldr	r1, [r5, #4]
+   f9f6a:	aa06      	add	r2, sp, #24
+   f9f6c:	9100      	str	r1, [sp, #0]
+   f9f6e:	f44f 7182 	mov.w	r1, #260	@ 0x104
+   f9f72:	2314      	movs	r3, #20
+   f9f74:	f789 ecee 	blx	83954 <HiDBO::Query(HI_MW_ATTR_E, unsigned char*, unsigned int, HI_MW_SRC_E)@plt>
+   f9f78:	9809      	ldr	r0, [sp, #36]	@ 0x24
+   f9f7a:	2801      	cmp	r0, #1
+   f9f7c:	d003      	beq.n	f9f86 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x62>
+   f9f7e:	2802      	cmp	r0, #2
+   f9f80:	d103      	bne.n	f9f8a <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x66>
+   f9f82:	2000      	movs	r0, #0
+   f9f84:	e000      	b.n	f9f88 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x64>
+   f9f86:	2001      	movs	r0, #1
+   f9f88:	63e0      	str	r0, [r4, #60]	@ 0x3c
+   f9f8a:	f788 eed2 	blx	82d30 <HiCfgFact::Get()@plt>
+   f9f8e:	4605      	mov	r5, r0
+   f9f90:	2020      	movs	r0, #32
+   f9f92:	f788 ec4c 	blx	8282c <operator new(unsigned int)@plt>
+   f9f96:	4937      	ldr	r1, [pc, #220]	@ (fa074 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x150>)
+   f9f98:	2209      	movs	r2, #9
+   f9f9a:	9005      	str	r0, [sp, #20]
+   f9f9c:	4479      	add	r1, pc
+   f9f9e:	f961 0a02 	vld1.8	{d16-d17}, [r1], r2
+   f9fa2:	2221      	movs	r2, #33	@ 0x21
+   f9fa4:	f961 2a0f 	vld1.8	{d18-d19}, [r1]
+   f9fa8:	f100 0109 	add.w	r1, r0, #9
+   f9fac:	9203      	str	r2, [sp, #12]
+   f9fae:	2219      	movs	r2, #25
+   f9fb0:	f941 2a0f 	vst1.8	{d18-d19}, [r1]
+   f9fb4:	2100      	movs	r1, #0
+   f9fb6:	f940 0a02 	vst1.8	{d16-d17}, [r0], r2
+   f9fba:	9204      	str	r2, [sp, #16]
+   f9fbc:	7001      	strb	r1, [r0, #0]
+   f9fbe:	a903      	add	r1, sp, #12
+   f9fc0:	4628      	mov	r0, r5
+   f9fc2:	f788 eec2 	blx	82d48 <INIProvider::ParseBoolean(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)@plt>
+   f9fc6:	4605      	mov	r5, r0
+   f9fc8:	f89d 000c 	ldrb.w	r0, [sp, #12]
+   f9fcc:	07c0      	lsls	r0, r0, #31
+   f9fce:	bf1c      	itt	ne
+   f9fd0:	9805      	ldrne	r0, [sp, #20]
+   f9fd2:	f788 ec3e 	blxne	82850 <operator delete(void*)@plt>
+   f9fd6:	2d01      	cmp	r5, #1
+   f9fd8:	d114      	bne.n	fa004 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0xe0>
+   f9fda:	68e0      	ldr	r0, [r4, #12]
+   f9fdc:	f5b0 5f80 	cmp.w	r0, #4096	@ 0x1000
+   f9fe0:	bf18      	it	ne
+   f9fe2:	f5b0 6f70 	cmpne.w	r0, #3840	@ 0xf00
+   f9fe6:	d10d      	bne.n	fa004 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0xe0>
+   f9fe8:	4923      	ldr	r1, [pc, #140]	@ (fa078 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x154>)
+   f9fea:	f240 136d 	movw	r3, #365	@ 0x16d
+   f9fee:	4a23      	ldr	r2, [pc, #140]	@ (fa07c <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x158>)
+   f9ff0:	4823      	ldr	r0, [pc, #140]	@ (fa080 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x15c>)
+   f9ff2:	4479      	add	r1, pc
+   f9ff4:	447a      	add	r2, pc
+   f9ff6:	4478      	add	r0, pc
+   f9ff8:	9000      	str	r0, [sp, #0]
+   f9ffa:	2005      	movs	r0, #5
+   f9ffc:	f788 ec46 	blx	8288c <HiLog::PrintLog(ATV_LOG_PRIO_E, char const*, char const*, unsigned int, char const*, ...)@plt>
+   fa000:	2000      	movs	r0, #0
+   fa002:	63e0      	str	r0, [r4, #60]	@ 0x3c
+   fa004:	9808      	ldr	r0, [sp, #32]
+   fa006:	2500      	movs	r5, #0
+   fa008:	6be2      	ldr	r2, [r4, #60]	@ 0x3c
+   fa00a:	6aa1      	ldr	r1, [r4, #40]	@ 0x28
+   fa00c:	4310      	orrs	r0, r2
+   fa00e:	bf18      	it	ne
+   fa010:	2001      	movne	r0, #1
+   fa012:	2900      	cmp	r1, #0
+   fa014:	60a0      	str	r0, [r4, #8]
+   fa016:	d00d      	beq.n	fa034 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x110>
+   fa018:	491a      	ldr	r1, [pc, #104]	@ (fa084 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x160>)
+   fa01a:	f240 1379 	movw	r3, #377	@ 0x179
+   fa01e:	4a1a      	ldr	r2, [pc, #104]	@ (fa088 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x164>)
+   fa020:	481a      	ldr	r0, [pc, #104]	@ (fa08c <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x168>)
+   fa022:	4479      	add	r1, pc
+   fa024:	447a      	add	r2, pc
+   fa026:	4478      	add	r0, pc
+   fa028:	9000      	str	r0, [sp, #0]
+   fa02a:	2003      	movs	r0, #3
+   fa02c:	f788 ec2e 	blx	8288c <HiLog::PrintLog(ATV_LOG_PRIO_E, char const*, char const*, unsigned int, char const*, ...)@plt>
+   fa030:	63e5      	str	r5, [r4, #60]	@ 0x3c
+   fa032:	60a5      	str	r5, [r4, #8]
+   fa034:	4816      	ldr	r0, [pc, #88]	@ (fa090 <HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)@@Base+0x16c>)
+   fa036:	990b      	ldr	r1, [sp, #44]	@ 0x2c
+   fa038:	4478      	add	r0, pc
+   fa03a:	6800      	ldr	r0, [r0, #0]
+   fa03c:	6800      	ldr	r0, [r0, #0]
+   fa03e:	1a40      	subs	r0, r0, r1
+   fa040:	bf02      	ittt	eq
+   fa042:	4628      	moveq	r0, r5
+   fa044:	b00c      	addeq	sp, #48	@ 0x30
+   fa046:	bdb0      	popeq	{r4, r5, r7, pc}
+   fa048:	f788 ec50 	blx	828ec <__stack_chk_fail@plt>
+   fa04c:	4604      	mov	r4, r0
+   fa04e:	f89d 000c 	ldrb.w	r0, [sp, #12]
+   fa052:	07c0      	lsls	r0, r0, #31
+   fa054:	bf1c      	itt	ne
+   fa056:	9805      	ldrne	r0, [sp, #20]
+   fa058:	f788 ebfa 	blxne	82850 <operator delete(void*)@plt>
+   fa05c:	4620      	mov	r0, r4
+   fa05e:	f110 fa25 	bl	20a4ac <iniparser_freedict@@Base+0x924>
+   fa062:	bf00      	nop
+   fa064:	3884      	subs	r0, #132	@ 0x84
+   fa066:	0019      	movs	r1, r3
+   fa068:	9e0a      	ldr	r6, [sp, #40]	@ 0x28
+   fa06a:	0014      	movs	r4, r2
+   fa06c:	9f7b      	ldr	r7, [sp, #492]	@ 0x1ec
+   fa06e:	0014      	movs	r4, r2
+   fa070:	3f49      	subs	r7, #73	@ 0x49
+   fa072:	0014      	movs	r4, r2
+   fa074:	3a48      	subs	r2, #72	@ 0x48
+   fa076:	0018      	movs	r0, r3
+   fa078:	9d62      	ldr	r5, [sp, #392]	@ 0x188
+   fa07a:	0014      	movs	r4, r2
+   fa07c:	9ed3      	ldr	r6, [sp, #844]	@ 0x34c
+   fa07e:	0014      	movs	r4, r2
+   fa080:	9ee2      	ldr	r6, [sp, #904]	@ 0x388
+   fa082:	0014      	movs	r4, r2
+   fa084:	9d32      	ldr	r5, [sp, #200]	@ 0xc8
+   fa086:	0014      	movs	r4, r2
+   fa088:	9ea3      	ldr	r6, [sp, #652]	@ 0x28c
+   fa08a:	0014      	movs	r4, r2
+   fa08c:	9eee      	ldr	r6, [sp, #952]	@ 0x3b8
+   fa08e:	0014      	movs	r4, r2
+   fa090:	377c      	adds	r7, #124	@ 0x7c
+   fa092:	0019      	movs	r1, r3

@@ -1,0 +1,887 @@
+__aeabi_memclr8
+_ZN7android7Factory12getSinkDelayEv
+_ZN7android7Factory12setSinkDelayEj
+_ZN7android7Factory14getNRThresholdEv
+_ZN7android7Factory14setNRThresholdEi
+_ZN7android7Factory19getAudioOutputDelayEi
+_ZN7android7Factory19setAudioOutputDelayEii
+_ZN7android7Factory9getNrGainEi
+_ZN7android7Factory9setNrGainEii
+__aeabi_memcpy
+_ZN7android7Picture11getPQModuleEi
+_ZN7android7Picture11setPQModuleEib
+_ZN7android7Picture12getMEMCLevelEv
+_ZN7android7Picture12getMemcDelayEv
+_ZN7android7Picture12setMEMCLevelEi
+_ZN7android7Picture12setMemcDelayEi
+_ZN7android7Picture14enableGameModeEb
+_ZN7android7Picture16isGameModeEnableEv
+_ZN7android7Picture5getNREv
+_ZN7android7Picture5setNREi
+__aeabi_memclr4
+_ZN7android13SystemSetting17getParentUnRatingEv
+_ZN7android13SystemSetting17setParentUnRatingEb
+__aeabi_memclr
+__aeabi_memclr8
+__aeabi_memcpy
+memcmp
+memcpy_s
+_Z14UpdateFacPQDefR18HI_MW_FACTORY_PQ_S
+_Z14UpdatePicPQDef11HI_MW_SRC_ER18HI_MW_PICTURE_PQ_S
+_Z18UpdateFacPqGainDef11HI_MW_SRC_ER23HI_MW_FACTORY_PQ_GAIN_S
+_Z18UpdateTifCecOptionR22HI_MW_TIF_CEC_OPTION_S
+_Z21UpdateFacPqAcmGainDefR24HI_MW_FACTORY_ACM_GAIN_S
+_Z21UpdateFacPqDciGainDefR24HI_MW_FACTORY_DCI_GAIN_S
+_Z23UpdateFacPqSharpGainDefR26HI_MW_FACTORY_SHARP_GAIN_S
+_Z24UpdatePicPqHdrFixModeDefR22HI_MW_PQ_HDR_FIXMODE_S
+_ZNSt3__114__split_bufferIPjNS_9allocatorIS1_EEE10push_frontEOS1_
+_ZNSt3__114__split_bufferIPjNS_9allocatorIS1_EEE10push_frontERKS1_
+_ZNSt3__114__split_bufferIPjNS_9allocatorIS1_EEE9push_backEOS1_
+_ZNSt3__114__split_bufferIPjRNS_9allocatorIS1_EEE10push_frontERKS1_
+_ZNSt3__114__split_bufferIPjRNS_9allocatorIS1_EEE9push_backEOS1_
+__aeabi_memclr4
+_Z12GetPqHdrName19HI_MW_PQ_HDR_TYPE_E
+_Z15GetPqModuleName17HI_MW_PQ_MODULE_E
+_ZN11HiAtvPlayer17SetParamFacPqGainE17HI_MW_COLOR_SYS_E11HI_MW_SRC_E
+_ZN11HiAtvPlayer17SetParamPicPqDataEv
+_ZN8HiPQCtrl10SetBriGainEP19HI_MW_PQ_BRI_GAIN_S
+_ZN8HiPQCtrl10SetCtiGainEj
+_ZN8HiPQCtrl10SetDciGainE24HI_MW_FACTORY_DCI_GAIN_S
+_ZN8HiPQCtrl10SetHueGainEP19HI_MW_PQ_HUE_GAIN_S
+_ZN8HiPQCtrl10SetSRLevelE17HI_MW_DEMOLEVEL_E
+_ZN8HiPQCtrl10SetSatGainEP19HI_MW_PQ_SAT_GAIN_S
+_ZN8HiPQCtrl10setDciTypeEj
+_ZN8HiPQCtrl11SetContrastEj
+_ZN8HiPQCtrl11SetPQModuleE17HI_MW_PQ_MODULE_Ej
+_ZN8HiPQCtrl12SetColorGainE21HI_MW_PQ_COLOR_TYPE_E
+_ZN8HiPQCtrl12SetDeRingingE13HI_MW_LEVEL_E
+_ZN8HiPQCtrl12SetFleshToneE13HI_MW_LEVEL_E
+_ZN8HiPQCtrl12SetSharpnessEj
+_ZN8HiPQCtrl13SetBrightnessEj
+_ZN8HiPQCtrl13SetDeBlockingE13HI_MW_LEVEL_E
+_ZN8HiPQCtrl13SetSaturationEj
+_ZN8HiPQCtrl13mLockInstanceE
+_ZN8HiPQCtrl16SetColorTempParaEP23HI_MW_COLOR_TEMP_DATA_S
+_ZN8HiPQCtrl5SetNRE13HI_MW_LEVEL_E
+_ZN8HiPQCtrl6SetHueEj
+_ZN8HiPQCtrl7mPQCtrlE
+_ZN8HiPQCtrl9SetNrGainEP21HI_MW_PQ_NRSTR_GAIN_S
+_ZTV8HiPQCtrl
+__aeabi_memcpy4
+_ZN12HiCVBSPlayer17SetParamFacPqGainE17HI_MW_COLOR_SYS_E11HI_MW_SRC_E
+_ZN12HiCVBSPlayer17SetParamPicPqDataEv
+_ZN11HiDTVPlayer17SetParamFacPqGainE11HI_MW_SRC_E
+_ZN11HiDTVPlayer17SetParamPicPqDataEv
+_ZN8HiPQCtrl10GetHdrTypeEP19HI_MW_PQ_HDR_TYPE_E
+_ZN8HiPQCtrl13setHdrModeIdxEj
+_ZN8HiPQCtrl8SetGammaEi
+_ZN12HiHdmiPlayer16ConfigBypassVpssER17hiMW_VIDEO_INFO_S
+_ZN12HiHdmiPlayer17SetParamFacPqGainE11HI_MW_SRC_E
+_ZN12HiHdmiPlayer17SetParamPicPqDataE7HI_BOOL
+_ZN9HiPicture17GetGameModeEnableEP7HI_BOOL
+_ZN9HiPicture17SetGameModeEnableE7HI_BOOL
+_ZN11HiVideoPlay11setMemcDemoE7HI_BOOL
+_ZN13HiMediaPlayer17SetParamFacPqGainE11HI_MW_SRC_E
+_ZN13HiMediaPlayer17SetParamPicPqDataEv
+_ZN8HiPQCtrl7setDemoE17HI_MW_DEMO_MODE_E7HI_BOOL
+_ZN10HiPCPlayer17SetParamFacPqGainE11HI_MW_SRC_E
+_ZN10HiPCPlayer17SetParamPicPqDataEv
+_ZN13HiSCARTPlayer17SetParamFacPqGainE11HI_MW_SRC_E
+_ZN13HiSCARTPlayer17SetParamPicPqDataEv
+_ZN15HiSourceManager18unregisterListenerEPK17ITvPlayerListener
+_ZN16HiChannelManager13IsScanRunningEv
+_ZN9HiDevCtrl4HiRm18UnRegisterCallbackEPvPFiS1_16HI_MW_RM_EVENT_EjE
+_ZNSt3__114__split_bufferIPN11AsynHandlerI15HiSourceManagerE10asyn_schedENS_9allocatorIS5_EEE10push_frontEOS5_
+_ZNSt3__114__split_bufferIPN11AsynHandlerI15HiSourceManagerE10asyn_schedENS_9allocatorIS5_EEE9push_backEOS5_
+_ZNSt3__114__split_bufferIPN11AsynHandlerI15HiSourceManagerE10asyn_schedERNS_9allocatorIS5_EEE10push_frontERKS5_
+_ZNSt3__114__split_bufferIPN11AsynHandlerI15HiSourceManagerE10asyn_schedERNS_9allocatorIS5_EEE9push_backEOS5_
+_ZN10HiTVPlayer12getDiffDelayERj
+_ZN10HiTVPlayer17SetVideoDelayToAIEv
+_ZN11HiAudioPlay10SetAiDelayEj
+_ZN11HiAudioPlay13GetTrackDelayEPj
+_ZN11HiVideoPlay7setMemcEPK11hiMW_MEMC_S
+__aeabi_memclr
+_ZN13HiYPbPrPlayer17SetParamFacPqGainE11HI_MW_SRC_E
+_ZN13HiYPbPrPlayer17SetParamPicPqDataEv
+_ZN13HiLockManager17GetParentUnRatingEP7HI_BOOL
+_ZN13HiLockManager17SetParentUnRatingE7HI_BOOL
+__aeabi_memcpy8
+_ZN11HiAudioPlay12SetSinkDelayEj
+_ZN11HiAudioPlay14SetOutputDelayEPK12hiMW_DELAY_S
+_ZN8HiPQCtrl10SetAcmGainE24HI_MW_FACTORY_ACM_GAIN_S
+_ZN8HiPQCtrl11getGammaNumEPi
+_ZN8HiPQCtrl12SetMplusModeE21HI_MW_PQ_MPLUS_MODE_E
+_ZN8HiPQCtrl12SetSharpGainE26HI_MW_FACTORY_SHARP_GAIN_S
+_ZN9HiFactory10GetBriGainEP19HI_MW_PQ_BRI_GAIN_S
+_ZN9HiFactory10GetCtiGainE16HI_MW_COLOR_PQ_EPj
+_ZN9HiFactory10GetHueGainEP19HI_MW_PQ_HUE_GAIN_S
+_ZN9HiFactory10GetSatGainEP19HI_MW_PQ_SAT_GAIN_S
+_ZN9HiFactory10SetBriGainEP19HI_MW_PQ_BRI_GAIN_S
+_ZN9HiFactory10SetCtiGainE16HI_MW_COLOR_PQ_Ej
+_ZN9HiFactory10SetHueGainEP19HI_MW_PQ_HUE_GAIN_S
+_ZN9HiFactory10SetSatGainEP19HI_MW_PQ_SAT_GAIN_S
+_ZN9HiFactory12GetMplusModeEP21HI_MW_PQ_MPLUS_MODE_E
+_ZN9HiFactory12GetSinkDelayEPj
+_ZN9HiFactory12SetMplusModeE21HI_MW_PQ_MPLUS_MODE_E
+_ZN9HiFactory12SetSinkDelayEj
+_ZN9HiFactory14GetNRThresholdEPj
+_ZN9HiFactory14SetNRThresholdEj
+_ZN9HiFactory19GetAudioOutputDelayE21HI_MW_AUDIO_CHANNEL_EPj
+memchr
+_ZN9HiFactory19SetAudioOutputDelayE21HI_MW_AUDIO_CHANNEL_Ej
+_ZN9HiFactory9GetNrGainEP21HI_MW_PQ_NRSTR_GAIN_S
+_ZN9HiFactory9SetNrGainEP21HI_MW_PQ_NRSTR_GAIN_S
+_ZN11HiVideoPlay12SetMemcDelayE17hiMW_DISP_DELAY_S
+_ZN11HiVideoPlay17SetGameModeEnableE7HI_BOOL
+_ZN8HiPQCtrl11GetHistgramEPi
+_ZN8HiPQCtrl12getHistogramEP23HI_MW_PQ_DCI_HISTGRAM_S
+_ZN8HiPQCtrl13GetSrcHdrInfoEP19HI_MW_PQ_HDR_INFO_S
+_ZN8HiPQCtrl13SetHdrFixModeEP22HI_MW_PQ_HDR_FIXMODE_S
+_ZN8HiPQCtrl16GetAvrBrightnessEPj
+_ZN8HiPQCtrl17GetDciCfHeBsCurveEPij
+_ZN8HiPQCtrl18SetPictureModeParaE16HI_MW_PQ_LAYER_EP19HI_MW_PICMOD_PARA_S
+_ZN8HiPQCtrl19GetMicroDimmingDataEhhPhj
+_ZN8HiPQCtrl21SetLayerColorTempParaE16HI_MW_PQ_LAYER_EP23HI_MW_COLOR_TEMP_DATA_S
+_ZN8HiPQCtrl21setPqTconModuleEnableE22HI_MW_PQ_TCON_MODULE_Ej
+_ZN9HiPicture10GetHdrTypeEP19HI_MW_PQ_HDR_TYPE_E
+_ZN9HiPicture11GetPQModuleE17HI_MW_PQ_MODULE_EP7HI_BOOL
+_ZN9HiPicture11SetPQModuleE17HI_MW_PQ_MODULE_E7HI_BOOL
+_ZN9HiPicture12GetColorGainEP21HI_MW_PQ_COLOR_TYPE_E
+_ZN9HiPicture12GetMEMCLevelEP13HI_MW_LEVEL_E
+_ZN9HiPicture12GetMemcDelayEPj
+_ZN9HiPicture12SetColorGainE21HI_MW_PQ_COLOR_TYPE_E
+_ZN9HiPicture12SetMEMCLevelE13HI_MW_LEVEL_E
+_ZN9HiPicture12SetMemcDelayEj
+_ZN9HiPicture13GetHdrFixModeEP22HI_MW_PQ_HDR_FIXMODE_S
+_ZN9HiPicture13GetSrcHdrInfoEP19HI_MW_PQ_HDR_INFO_S
+_ZN9HiPicture13SetHdrFixModeEP22HI_MW_PQ_HDR_FIXMODE_S
+_ZN9HiPicture15SetMemcDemoModeE7HI_BOOLR15HI_MW_PICTURE_S11HI_MW_SRC_E
+_ZN9HiPicture16SetPQModule4HdmiER17hiMW_VIDEO_INFO_SP11HiVideoPlay
+_ZN9HiPicture16SetPictureModeNRE13HI_MW_LEVEL_E
+_ZN9HiPicture20SetGameModeEnableSubER21HI_MW_PICTURE_VIDEO_SR17hiMW_VIDEO_INFO_S11HI_MW_SRC_E7HI_BOOLP11HiVideoPlay
+_ZN9HiPicture5GetNREP13HI_MW_LEVEL_E
+_ZN9HiPicture5SetNRE13HI_MW_LEVEL_E
+_ZN8HiPQCtrl14getPqParamPathERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+_ZN8HiPQCtrl4InitEPKc
+_ZN8HiPQCtrl6DeInitEv
+_ZN8HiSystem14SetAtvPQModuleEPK13HI_MW_IMAGE_S18HI_MW_PICTURE_PQ_S15HI_MW_PICTURE_S
+_ZN8HiSystem14SetDtvPQModuleE18HI_MW_PICTURE_PQ_S
+_ZN8HiSystem14SetVgaPQModuleE18HI_MW_PICTURE_PQ_S21HI_MW_PICTURE_VIDEO_S
+_ZN8HiSystem15RestorePQModuleE20HI_MW_PICTURE_PARA_S11HI_MW_SRC_E
+_ZN8HiSystem15SetCvbsPQModuleEPK13HI_MW_IMAGE_S18HI_MW_PICTURE_PQ_S15HI_MW_PICTURE_S
+_ZN8HiSystem15SetHdmiPQModuleE18HI_MW_PICTURE_PQ_S20HI_MW_PICTURE_DISP_S
+_ZN8HiSystem16SetMediaPQModuleE18HI_MW_PICTURE_PQ_S
+_ZN8HiSystem16SetYPbPrPQModuleE18HI_MW_PICTURE_PQ_S
+_ZN8HiSystem25GetShutdownRecoveryEnableEv
+_ZN8HiSystem25SetShutdownRecoveryEnableE7HI_BOOL
+_ZN17HiRxTifCecManager15GetTifCecOptionE20HI_MW_TIF_CEC_OPTIONR7HI_BOOL
+_ZN15HiNotifyAdaptor16unregisterNotifyEP15INotifyRegister
+_ZN11HiAudioPlay14GetOutputDelayEP12hiMW_DELAY_S
+_ZN12HiAudioInput8SetDelayEj
+_ZN12HiAudioInput9SetNRAttrEj
+_ZN7HiSound12SetAefBypassE19HI_MW_SND_OUTPORT_E7HI_BOOL
+_ZN7HiSound12SetSinkDelayEj
+_ZN7HiSound8GetDelayE19HI_MW_SND_OUTPORT_EPj
+_ZN7HiSound8SetDelayE19HI_MW_SND_OUTPORT_Ej
+_ZN7HiTrack13GetTrackDelayEPj
+_ZN8HiHdmiTx15unRegEvCallBackEP20hiMW_HDMI_CALLBACK_S
+_ZN11HiVideoPlay12GetMemcDelayEP17hiMW_DISP_DELAY_S
+_ZN11HiVideoPlay13getVideoDelayEPj
+_ZN11HiVideoPlay20SetGameModeEnableSubE7HI_BOOLR17hiMW_VIDEO_INFO_SR14hiMW_VI_ATTR_S
+_ZN8HiWindow13getVideoDelayEPj
+_ZN9HiDisplay11setMemcDemoE7HI_BOOL
+_ZN9HiDisplay12GetMemcDelayEP17hiMW_DISP_DELAY_S
+_ZN9HiDisplay12SetMemcDelayEP17hiMW_DISP_DELAY_S
+_ZN9HiDisplay12setMemcLevelEj
+_ZN9HiDisplay13getMemcEnableEP7HI_BOOL
+_ZN9HiDisplay13setMemcEnableE7HI_BOOL
+_ZN8HiCommon4Proc6PrintfEPK23hiMW_PROC_SHOW_BUFFER_SPKcPc
+_ZN8HiCommon6Module10UnRegisterEj
+_ZN7HiSound12GetAefBypassE19HI_MW_SND_OUTPORT_EP7HI_BOOL
+_ZN15HiNotifyAdaptor16unregistCallbackEPFvjPvjS0_PKN7android6ParcelEPS2_E
+_ZN8TVLooperI11ITVCallbackI16HiNotifyListenerEE16unregistCallbackEPKS2_
+HI_UNF_AI_SetDelay
+HI_UNF_AI_SetNRAttr
+HI_UNF_SND_GetAefBypass
+HI_UNF_SND_GetDelayCompensationMs
+HI_UNF_SND_GetTrackDelayMs
+HI_UNF_SND_SetAefBypass
+HI_UNF_SND_SetDelayCompensationMs
+HI_UNF_SND_SetSinkDelay
+HI_MODULE_UnRegister
+HI_UNF_RM_UnRegisterCallback
+HI_UNF_HDMI_UnRegCallback
+HI_UNF_PDM_GetPanelPqPath
+HI_UNF_PQ_DeInit
+HI_UNF_PQ_GetAcmGain
+HI_UNF_PQ_GetAvrBrightness
+HI_UNF_PQ_GetBriGain
+HI_UNF_PQ_GetBrightness
+HI_UNF_PQ_GetColorNum
+HI_UNF_PQ_GetColorTemp
+HI_UNF_PQ_GetContrast
+HI_UNF_PQ_GetCtiGain
+HI_UNF_PQ_GetDciCurve
+HI_UNF_PQ_GetDciGain
+HI_UNF_PQ_GetDciNum
+HI_UNF_PQ_GetFleshTone
+HI_UNF_PQ_GetGammaNum
+HI_UNF_PQ_GetGammaTable
+HI_UNF_PQ_GetHdrType
+HI_UNF_PQ_GetHistgram
+HI_UNF_PQ_GetHueGain
+HI_UNF_PQ_GetMplusMode
+HI_UNF_PQ_GetNRStr
+HI_UNF_PQ_GetPQModule
+HI_UNF_PQ_GetPqTconModuleEnable
+HI_UNF_PQ_GetSRMode
+HI_UNF_PQ_GetSatGain
+HI_UNF_PQ_GetSaturation
+HI_UNF_PQ_GetSharpenGain
+HI_UNF_PQ_GetSharpness
+HI_UNF_PQ_GetWhiteBalanceParam
+HI_UNF_PQ_Init
+HI_UNF_PQ_SetAcmGain
+HI_UNF_PQ_SetBriGain
+HI_UNF_PQ_SetBrightness
+HI_UNF_PQ_SetColorTemp
+HI_UNF_PQ_SetColorTemperature
+HI_UNF_PQ_SetColorType
+HI_UNF_PQ_SetContrast
+HI_UNF_PQ_SetCtiGain
+HI_UNF_PQ_SetDciGain
+HI_UNF_PQ_SetDciType
+HI_UNF_PQ_SetDeBlocking
+HI_UNF_PQ_SetDeMosquito
+HI_UNF_PQ_SetDemo
+HI_UNF_PQ_SetFleshTone
+HI_UNF_PQ_SetGamma
+HI_UNF_PQ_SetGammaTable
+HI_UNF_PQ_SetHdrModeIdx
+HI_UNF_PQ_SetHue
+HI_UNF_PQ_SetHueGain
+HI_UNF_PQ_SetMplusMode
+HI_UNF_PQ_SetNR
+HI_UNF_PQ_SetNRStr
+HI_UNF_PQ_SetPQModule
+HI_UNF_PQ_SetPictureMode
+HI_UNF_PQ_SetPqTconModuleEnable
+HI_UNF_PQ_SetSRMode
+HI_UNF_PQ_SetSatGain
+HI_UNF_PQ_SetSaturation
+HI_UNF_PQ_SetSharpenGain
+HI_UNF_PQ_SetSharpness
+_Z19GetAutoColorTempSubP28HI_MW_AUTO_COLOR_TEMP_DATA_SR30hiUNF_PQ_WHITE_BALANCE_PARAM_S
+_ZN8HiPQCtrl10GetAcmGainEP24HI_MW_FACTORY_ACM_GAIN_S
+_ZN8HiPQCtrl10GetBriGainEP19HI_MW_PQ_BRI_GAIN_S
+_ZN8HiPQCtrl10GetCtiGainEPj
+_ZN8HiPQCtrl10GetDciGainEP24HI_MW_FACTORY_DCI_GAIN_S
+_ZN8HiPQCtrl10GetHueGainEP19HI_MW_PQ_HUE_GAIN_S
+_ZN8HiPQCtrl10GetSRLevelEP17HI_MW_DEMOLEVEL_E
+_ZN8HiPQCtrl10GetSatGainEP19HI_MW_PQ_SAT_GAIN_S
+_ZN8HiPQCtrl11GetContrastEPj
+_ZN8HiPQCtrl11GetPQModuleE17HI_MW_PQ_MODULE_EPj
+_ZN8HiPQCtrl12GetColorGainEP21HI_MW_PQ_COLOR_TYPE_E
+_ZN8HiPQCtrl12GetDeRingingEP13HI_MW_LEVEL_E
+_ZN8HiPQCtrl12GetDolbyModeEP21HI_MW_PQ_DOLBY_MODE_E
+_ZN8HiPQCtrl12GetFleshToneEP13HI_MW_LEVEL_E
+_ZN8HiPQCtrl12GetMplusModeEP21HI_MW_PQ_MPLUS_MODE_E
+_ZN8HiPQCtrl12GetSharpGainEP26HI_MW_FACTORY_SHARP_GAIN_S
+_ZN8HiPQCtrl12GetSharpnessEPj
+_ZN8HiPQCtrl12RegisterOpCbEPK16HiMW_PQCTRL_CB_S
+_ZN8HiPQCtrl12SetDolbyModeE21HI_MW_PQ_DOLBY_MODE_E
+_ZN8HiPQCtrl12getDebugModeEP7HI_BOOL
+_ZN8HiPQCtrl12setDebugModeE7HI_BOOL
+_ZN8HiPQCtrl13GetBrightnessEPj
+_ZN8HiPQCtrl13GetDeBlockingEP13HI_MW_LEVEL_E
+_ZN8HiPQCtrl13GetHdrFixModeEP22HI_MW_PQ_HDR_FIXMODE_S
+_ZN8HiPQCtrl13GetSaturationEPj
+_ZN8HiPQCtrl13getgammatableEP22HI_MW_PQ_GAMMA_TABLE_S
+_ZN8HiPQCtrl13setgammatableEP22HI_MW_PQ_GAMMA_TABLE_S
+_ZN8HiPQCtrl14GetPQModuleOneE17HI_MW_PQ_MODULE_EPj
+_ZN8HiPQCtrl14GetPQModuleTwoE17HI_MW_PQ_MODULE_EPj
+_ZN8HiPQCtrl14SetPQModuleOneE17HI_MW_PQ_MODULE_Ej
+_ZN8HiPQCtrl14SetPQModuleTwoE17HI_MW_PQ_MODULE_Ej
+_ZN8HiPQCtrl16GetColorTempParaEP23HI_MW_COLOR_TEMP_DATA_S
+_ZN8HiPQCtrl16getAutoColorTempEP28HI_MW_AUTO_COLOR_TEMP_DATA_S
+_ZN8HiPQCtrl21getPqTconModuleEnableE22HI_MW_PQ_TCON_MODULE_EPj
+_ZN8HiPQCtrl21setBlackPatternOutputE7HI_BOOL
+_ZN8HiPQCtrl5GetNREP13HI_MW_LEVEL_E
+_ZN8HiPQCtrl6GetHueEPj
+_ZN8HiPQCtrl9GetNrGainEP21HI_MW_PQ_NRSTR_GAIN_S
+_ZN8HiPQCtrl9getDciNumEPj
+HI_UNF_DISP_GetChnDelay
+HI_UNF_DISP_GetMemcEnable
+HI_UNF_DISP_GetMemcRange
+HI_UNF_DISP_SetChnDelay
+HI_UNF_DISP_SetMemcDemo
+HI_UNF_DISP_SetMemcEnable
+HI_UNF_DISP_SetMemcLevel
+HI_UNF_VO_QueryVideoDelay
+_ZN9HiDisplay12getMemcRangeEP13HI_MW_RANGE_S
+_ZNSt3__114__split_bufferIPN11AsynHandlerI9HiTTXPlayE10asyn_schedENS_9allocatorIS5_EEE10push_frontEOS5_
+_ZNSt3__114__split_bufferIPN11AsynHandlerI9HiTTXPlayE10asyn_schedENS_9allocatorIS5_EEE9push_backEOS5_
+_ZNSt3__114__split_bufferIPN11AsynHandlerI9HiTTXPlayE10asyn_schedERNS_9allocatorIS5_EEE10push_frontERKS5_
+_ZNSt3__114__split_bufferIPN11AsynHandlerI9HiTTXPlayE10asyn_schedERNS_9allocatorIS5_EEE9push_backEOS5_
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN9DebugUart6TxTaskENS_14default_deleteIS3_EEEENS_9allocatorIS7_EEE13shrink_to_fitEv
+_ZN8ZYConfig12AutoKeystone14BYPASS_SENSORSE
+_ZN14ZYPowerManager21unregisterAllExternalEv
+_ZN16ZYSensorsManager18unregisterCallbackENS_10CALLBACK_EE
+_ZN17ZYKeystoneService25unregisterSensorsCallbackEv
+_ZN17ZYProjectionFocus25unregisterSensorsCallbackEv
+_ZN16ZYSensorsManager18unregisterCallbackEv
+_ZNSt3__114__split_bufferIPNS_8functionIFvvEEENS_9allocatorIS4_EEE10push_frontEOS4_
+_ZNSt3__114__split_bufferIPNS_8functionIFvvEEENS_9allocatorIS4_EEE9push_backEOS4_
+_ZNSt3__114__split_bufferIPNS_8functionIFvvEEERNS_9allocatorIS4_EEE10push_frontERKS4_
+_ZNSt3__114__split_bufferIPNS_8functionIFvvEEERNS_9allocatorIS4_EEE9push_backEOS4_
+_ZN16ZYThermalManager12ThermalSense9RunReportEi
+_ZN16ZYThermalManager13FanSpeedSense12RunReportRpmEj
+_ZN16ZYThermalManager13FanSpeedSense14RunReportRatioEj
+_ZN7DCMotor9RunRotateEv
+_ZNK7DCMotor21isNextDurationReverseEi
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN13DebugUartImpl4TaskENS_14default_deleteIS3_EEEENS_9allocatorIS7_EEE10push_frontEOS7_
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN13DebugUartImpl4TaskENS_14default_deleteIS3_EEEENS_9allocatorIS7_EEE13shrink_to_fitEv
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN13DebugUartImpl4TaskENS_14default_deleteIS3_EEEENS_9allocatorIS7_EEE9push_backEOS7_
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN13DebugUartImpl4TaskENS_14default_deleteIS3_EEEERNS_9allocatorIS7_EEE10push_frontERKS7_
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN13DebugUartImpl4TaskENS_14default_deleteIS3_EEEERNS_9allocatorIS7_EEE9push_backEOS7_
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN9DebugUart6TxTaskENS_14default_deleteIS3_EEEENS_9allocatorIS7_EEE10push_frontEOS7_
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN9DebugUart6TxTaskENS_14default_deleteIS3_EEEENS_9allocatorIS7_EEE9push_backEOS7_
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN9DebugUart6TxTaskENS_14default_deleteIS3_EEEERNS_9allocatorIS7_EEE10push_frontERKS7_
+_ZNSt3__114__split_bufferIPNS_10unique_ptrIN9DebugUart6TxTaskENS_14default_deleteIS3_EEEERNS_9allocatorIS7_EEE9push_backEOS7_
+_ZN5Motor9RunRotateEj
+_ZNK5Motor20isNextPostionReverseEi
+_ZN9Gyroscope15RunRotateDetectERK12SensorsEventON11SensorsTask9InterfaceE
+_ZNSt3__114__split_bufferIPiNS_9allocatorIS1_EEE10push_frontEOS1_
+_ZNSt3__114__split_bufferIPiNS_9allocatorIS1_EEE9push_backEOS1_
+_ZNSt3__114__split_bufferIPiRNS_9allocatorIS1_EEE10push_frontERKS1_
+_ZNSt3__114__split_bufferIPiRNS_9allocatorIS1_EEE9push_backEOS1_
+_ZN7android7Factory12getSinkDelayEv
+_ZN7android7Factory12setSinkDelayEj
+_ZN7android7Factory14getNRThresholdEv
+_ZN7android7Factory14setNRThresholdEi
+_ZN7android7Factory19getAudioOutputDelayEi
+_ZN7android7Factory19setAudioOutputDelayEii
+_ZN7android7Factory9getNrGainEi
+_ZN7android7Factory9setNrGainEii
+_ZN7android7Picture11getPQModuleEi
+_ZN7android7Picture11setPQModuleEib
+_ZN7android7Picture12getMEMCLevelEv
+_ZN7android7Picture12getMemcDelayEv
+_ZN7android7Picture12setMEMCLevelEi
+_ZN7android7Picture12setMemcDelayEi
+_ZN7android7Picture14enableGameModeEb
+_ZN7android7Picture16isGameModeEnableEv
+_ZN7android7Picture5getNREv
+_ZN7android7Picture5setNREi
+_ZN7android13SystemSetting17getParentUnRatingEv
+_ZN7android13SystemSetting17setParentUnRatingEb
+android.hardware.graphics.bufferqueue@1.0.so
+PQyDa
+qM8#qNrI}D~DyD
+memcpy_s_func failed rc = %d
+INIPicPQOne
+INIPicPQTwo
+INIPicPQThree
+INIPicPQFour
+update picPQData failure ret: 0x%x
+update facPqGain %d faillure ret: 0x%x
+game
+geq_game_focused
+geq_game_off
+geq_game_open
+geq_game_rich
+[1]NR
+[5]MEMC
+No this pq module!
+SetParamPicPqData
+SetParamFacPqGain
+dtv player does not get hdr type from pq
+ConfigBypassVpss
+ if bInterlace , force bGraphicMode = HI_FALSE , bBypassVpss = HI_FALSE
+GetGameModeEnable failed, ret:%d
+Hdmi player does not get hdr type from pq
+bBypassVpss       :%-12s|bGraphicMode      :%-12s|bInterlace        :%s
+media player does not get hdr type from pq
+SetWindowRect, Update mMainRect = rect:[%d,%d,%d,%d]
+mMainPlayer is null, Update mMainRect, will SetWindowRect at the end of selectSourceProc.
+unregisterListener
+mMainPlayer->create with mMainRect:[%d,%d,%d,%d]
+Refresh Aspect after setMainWinRect! Aspect:%d. s32Ret:0x%x
+now no signal in ATV and blue screen, don't Refresh Aspect after setMainWinRect
+now not ATV and signal not support, don't Refresh Aspect after setMainWinRect
+MainRect(X/Y/W/H) :%-5d/%-5d/%-5d/%-5d
+not support Memc !
+SetVideoDelayToAI
+CurVideoDelay:%d latestPTS:%d curDisplayPTS:%d 
+videoDelay:%d trackDelay:%d
+SetPQModule failed!Ret:0x%x
+SetPQModule COLOR failed!Ret:0x%x
+SetPQModule SHARPNESS failed!Ret:0x%x
+SetPQModule HDR failed!Ret:0x%x
+SetPQModule HDR10PLUS failed!Ret:0x%x
+SetPQModule BLUE_STRETCH failed!Ret:0x%x
+SetPQModule GAMMA failed!Ret:0x%x
+SetParamPicPqData failed!Ret:0x%x
+SetParentUnRating
+set parent unrating %d
+GetParentUnRating
+get parent unrating %d
+system lock data unRating, lock!
+m_bParentLockFlag     :%-10d|m_bParentUnRating :%-10d
+PC:%d or Game mode:%d is opened, cann't set 3D auto
+SetAefByPass faild, s32Ret:0x%x
+SetOutputDelay faild, s32Ret:0x%x
+SetAefByPass
+port:%d, bAefBypass:%d, ret:0x%x
+SetOutputDelay
+port:%d, OutputDelay:%d, ret:0x%x
+memcpy_s_func failed, rc = %d
+enRotation is null ptr
+SetNRThreshold
+The NR level value is same as db
+GetNRThreshold
+pu32NRThreshold is null ptr
+SetNrGain
+pstNrGain is null ptr
+The NrGain is same as db
+GetNrGain
+SetAudioOutputDelay
+HiAudioPlay::SetOutputDelay u32DelayMs:%d, faild! ret:0x%x
+GetAudioOutputDelay
+pu32DelayMs is null ptr
+SetSinkDelay
+GetSinkDelay
+SetPictureModeNR
+SetNR
+SetNR enNr:%d, s32Ret:0x%x
+GetNR
+penNr is null ptr
+SetMEMCLevel
+The MEMCLevel value is same as db
+GetMEMCLevel
+penMemcLevel is null ptr
+SetPQModule bEnable:%d, s32Ret:0x%x
+SetPQModule4Hdmi
+SetPQModule
+stPicPqData.bPqModule[%d] = %d, bEnable = %d
+SetPQModule enPqModule:%d, bEnable:%d, s32Ret:0x%x
+PQ module:%d enable:%d is the same to db
+GetPQModule
+SetMemcDemoMode
+now not support MEMC
+SetGameModeEnableSub
+SetGameModeEnable bEnable:%d, s32Ret:0x%x
+HiPicture::SetGameModeEnable finish! unfreeze window. s32Ret:%d
+The GameMode value is same as db
+SetGameModeEnable
+GetGameModeEnable
+SetPQModule, s32Ret:0x%x
+SetMemcDelay
+set Memc Delay failure! s32Ret:0x%x
+The Memc Delay value is same as db
+GetMemcDelay
+pu32PanelMemcDelay is null ptr
+SetAsiaAmbiLight enRegionIndex:%d enable:%d, [%d, %d, %d, %d] failed, s32Ret:0x%x
+SetEuropeAmbiLight enRegionIndex:%d enable:%d, [%d, %d, %d, %d] Hnum:%d Vnum:%d failed, s32Ret:0x%x
+SetPQModule SHARPNESS fail!
+SetNR:%d faild, s32Ret:0x%x
+SetPQModule DCI failed, s32Ret:0x%x
+SetPQModule COLOR failed, s32Ret:0x%x
+SetPQModule SHARPNESS failed, s32Ret:0x%x
+SetPQModule BLUE_STRETCH failed, s32Ret:0x%x
+SetPQModule HDR failed, s32Ret:0x%x
+SetPQModule HDR10PLUS failed, s32Ret:0x%x
+not Support Memc!
+SetAtvPQModule
+SetCvbsPQModule
+RestorePQModule
+HiPQCtrl Init failure s32Ret: 0x%x
+NRthreshold:%d, ret:%d
+NRSTR:%d, Gain:%d, ret:%d
+enChannel:%d, u32DelayMs:%d, ret:0x%x
+u32DelayMs:%d, ret:0x%x
+nr:%d, ret:%d
+memcLevel:%d, ret:%d
+pqModule:%d, enable:%d, s32Ret%d
+u32PanelMemcDelay:%u, ret:%d
+SetShutdownRecoveryEnable
+SetShutdownRecoveryEnable ret = %d, enable:%d
+GetShutdownRecoveryEnable
+GetShutdownRecoveryEnable enable:%d
+SetNRAttr failed!Ret:0x%x
+SetAiDelay
+GetTrackDelay
+GetOutputDelay
+call av play put buffer fail
+bUpdateVol        :%-12s|bAefBypass        :%-12s|enTrackMode       :%s
+s32Balance        :%-12d|bAdOutPutEnable   :%-12s|u32Delay          :%d
+LOWLATENCY
+InitVi bGraphicMode = %d ,bBypassVpss : %d
+getVideoDelay
+video start fail in set game mode!
+Set bGraphicMode:%d, bBypassVpss:%d, ret:0x%x
+para pstDelayAttr is NULL!
+setMemc
+pstMemc is null ptr
+call getMemcEnable, s32Ret: 0x%x
+not support Memc
+proc module unregister moduleID(%d) failed, ret:0x%x
+scene:%d, outPort:%s, mute:%d, aefByPass:%d, balance:%d, volume:%d
+trackMode:%d, fixedGain:%d, delay:%d, enable:%d, spdifMode:%d, enMode:%d
+SetAefBypass of outPort(%s) failed, s32Ret:0x%x
+SetDelay of outPort(%s) failed, s32Ret:0x%x
+GetAefBypass of outPort(%s) failed, s32Ret:0x%x
+GetDelay of outPort(%s) failed, s32Ret:0x%x
+scene:%d, outPort:%s, mute:%d, aefByPass:%d, balance:%d, volume:%d
+trackMode:%d, fixedGain:%d, delay:%d, enable:%d, spdifMode:%d, enMode:%d
+unregistCallback
+SetNRAttr
+AudioInput HI_UNF_AI_SetNRAttr, ret:0x%x
+set nr attr successed
+SetDelay
+HI_UNF_AI_SetDelay fail, ret:0x%x
+set ai delay successed, delay %d ms
+set compensate  linearMode:%d, gainLeft:%d, gainRight:%d
+HI_UNF_SND_SetTrackAbsWeight linearMode:%d, gainLeft:%d, gainRight:%d, ret:0x%x
+HI_UNF_SND_GetTrackDelayMs fail, ret:0x%x
+SetAefBypass
+HI_UNF_SND_SetAefBypass fail, port:%s, bAefBypass:%d, ret:0x%x
+GetAefBypass
+HI_UNF_SND_GetAefBypass fail, port:%s, bAefBypass:%d, ret:0x%x
+HI_UNF_SND_SetDelayCompensationMs fail, port:%s, delay:%d(ms), ret:0x%x
+GetDelay
+HI_UNF_SND_GetDelayCompensationMs fail, port:%s, delay:%d(ms), ret:0x%x
+HI_UNF_SND_SetSinkDelay fail, delay:%d(ms), ret:0x%x
+3[LOWLATENCY]
+unRegEvCallBack
+HI_UNF_HDMI_UnRegCallback fail, ret:0x%x
+HiMW_framework_pqctrl
+HI_UNF_PQ_Init successed !
+HI_UNF_PQ_Init failed! s32Ret: 0x%x
+getPqParamPath
+/%s/pq_%u
+[newlink]getPqParamPath, snprintf_s failed why??? acPqBinPath=%s
+[newlink]PqBinPath from panelindex [%s] exists.
+hi_get_one_cfg_file. pqDir:%s
+PqBinPath from PDM [%s] exists.
+PqBinPath from PDM [%s] does not exist. set default [%s]
+getPqBinPath from PDM failed, ret = %d, pathlen = %d, set default [%s]
+HI_UNF_PQ_SetHue fail, ret:0x%x
+nrLevel is null ptr
+HI_UNF_PQ_SetNR fail, ret:0x%x
+Call HI_UNF_PQ_GetWhiteBalanceParam failed.
+HI_UNF_PQ_GetColorNum fail, ret:0x%x
+HI_UNF_PQ_SetColorType fail, colorGain:0, ret:0x%x
+HI_UNF_PQ_SetGamma fail, gammaIndex:0, ret:0x%x
+HI_UNF_PQ_SetDciType fail, DciIndex:0, ret:0x%x
+GetPQModuleOne
+GetPQModuleTwo
+does not support this pq module, the module is %d
+SetPQModuleOne
+SetPQModuleTwo
+HI_UNF_PQ_SetColorType fail, ret:0x%x
+HI_UNF_PQ_SetPQModule fail, ret:0x%x
+set PQModule %s enable [%d]
+set PQModule failed
+HI_UNF_PQ_SetSRMode level = %d [off/on/demo]
+HI_UNF_PQ_SetMplusMode fail, ret:0x%x
+HI_UNF_PQ_GetMplusMode fail, ret:0x%x
+setPqTconModuleEnable
+does not support this PQTCON module[%d]
+getPqTconModuleEnable
+atv/pq
+[0xF]unRegOrBC
+HI_UNF_SND_SetAefConfig, CfgType:%d, ret:0x%x, bEnable:%d,enMainTech:%d, f32HeadroomGain:%f, f32BypassGain:%f
+HI_UNF_SND_GetAefConfig, CfgType:%d, ret:0x%x, bEnable:%d,enMainTech:%d, f32HeadroomGain:%f, f32BypassGain:%f
+create VI with enAccess:%d,bBypassVpss:%d,bGraphicMode:%d,bInterlace:%d,Width:%d,Height:%d,FrameRate:%d
+bInterlace          :%-15s|bGraphicMode      :%-15s|bBypassVpss       :%s
+HI_UNF_VO_QueryVideoDelay fail, ret:0x%x
+setMemcEnable
+HI_UNF_DISP_SetMemcEnable fail, bMemcEnable:%d, ret:0x%x
+getMemcEnable
+pbMemcEnable is null ptr
+HI_UNF_DISP_GetMemcEnable fail, ret:0x%x
+getMemcRange
+pstMemcRange is null ptr
+HI_UNF_DISP_GetMemcRange fail, ret:0x%x
+setMemcLevel
+HI_UNF_DISP_SetMemcLevel fail, u32MemcLevel:%d, ret:0x%x
+setMemcDemo
+HI_UNF_DISP_SetMemcDemo fail, bMemcDemo:%d, ret:0x%x
+HI_UNF_DISP_SetChnDelay fail, ret:0x%x
+HI_UNF_DISP_GetChnDelay fail, ret:0x%x
+ teletext buffer pointer error [RD: %d, WR: %d].
+NRK1
+NRK2
+BYPASS_SENSORS = %d
+SW_TORQUE_DELAY_US = %d
+SW_START_DELAY_US = %d
+SW_BRAKE_DELAY_US = %d
+SW_ATOMIC_DELAY_US = %d
+SW_DIR_CHANGE_DELAY_US = %d
+DEFAULT_SWITCH_DELAY_MS = %d
+memcpy_s_func 0x%x(%s) failed rc = %d
+call alloc_buffer fail
+read_to_buffer failed!
+alloc_buffer
+read_to_buffer
+write_from_buffer
+Delay Detected Limit to %s
+RunRotate
+Uart Buffer is Full
+Buffer Not enough size to Peek %d Byte
+Empty Buffer
+Buffer Not enough size to Read %d Byte
+RunRotateDetect
+databasedef:FactoryPQ_nrthreshold
+databasedef:FactoryPQ_avcthreshold
+databasedef:FactoryPQ_gamma
+databasedef:PicPQ_sharp_gain
+databasedef:PicPQ_acm_gain
+databasedef:PicPQ_dci_gain
+databasedef:PicVideo_atv_memc
+databasedef:PicVideo_atv_gamemode
+databasedef:PicVideo_dvbc_memc
+databasedef:PicVideo_dvbc_gamemode
+databasedef:PicVideo_dtmb_memc
+databasedef:PicVideo_dtmb_gamemode
+databasedef:PicVideo_cvbs_memc
+databasedef:PicVideo_cvbs_gamemode
+databasedef:PicVideo_vga_memc
+databasedef:PicVideo_vga_gamemode
+databasedef:PicVideo_ypbpr_memc
+databasedef:PicVideo_ypbpr_gamemode
+databasedef:PicVideo_hdmi_memc
+databasedef:PicVideo_hdmi_gamemode
+databasedef:PicVideo_media_memc
+databasedef:PicVideo_media_gamemode
+databasedef:PicVideo_dvbt_memc
+databasedef:PicVideo_dvbt_gamemode
+databasedef:PicVideo_atsc_memc
+databasedef:PicVideo_atsc_gamemode
+databasedef:PicVideo_dvbs_memc
+databasedef:PicVideo_dvbs_gamemode
+databasedef:PicVideo_isdbt_memc
+databasedef:PicVideo_isdbt_gamemode
+databasedef:PicVideo_scart_memc
+databasedef:PicVideo_scart_gamemode
+databasedef:PicEf_atv_nr
+databasedef:PicEf_dvbc_nr
+databasedef:PicEf_dtmb_nr
+databasedef:PicEf_cvbs_nr
+databasedef:PicEf_vga_nr
+databasedef:PicEf_ypbpr_nr
+databasedef:PicEf_hdmi_nr
+databasedef:PicEf_dvbt_nr
+databasedef:PicEf_atsc_nr
+databasedef:PicEf_dvbs_nr
+databasedef:PicEf_isdbt_nr
+databasedef:PicEf_media_nr
+databasedef:PicEf_scart_nr
+databasedef:PicPQ_Panel_RegionEnable
+databasedef:PicPQ_Panel_RegionX
+databasedef:PicPQ_Panel_RegionY
+databasedef:PicPQ_Panel_RegionWidth
+databasedef:PicPQ_Panel_RegionHeight
+databasedef:PicPQ_Panel_AreaEnable
+databasedef:PicPQ_Panel_AreaX
+databasedef:PicPQ_Panel_AreaY
+databasedef:PicPQ_Panel_AreaWidth
+databasedef:PicPQ_Panel_AreaHeight
+databasedef:PicPQ_Panel_AreaHnum
+databasedef:PicPQ_Panel_AreaVnum
+databasedef:PicPQ_Panel_Offset
+databasedef:PicPQ_Panel_Delay
+databasedef:PicPQ_HDR_FixMode
+audioconfig:sinkDelay
+databasedef:PQ_CVBS_CtiGain
+databasedef:PQ_CVBS_SatGain
+databasedef:PQ_CVBS_HueGain
+databasedef:PQ_CVBS_BriGain
+databasedef:PQ_CVBS_NrStrGain
+databasedef:PQ_Atv_CtiGain
+databasedef:PQ_Atv_SatGain
+databasedef:PQ_Atv_HueGain
+databasedef:PQ_Atv_BriGain
+databasedef:PQ_Atv_NrStrGain
+databasedef:PQ_Ypbpr_CtiGain
+databasedef:PQ_Ypbpr_SatGain
+databasedef:PQ_Ypbpr_HueGain
+databasedef:PQ_Ypbpr_BriGain
+databasedef:PQ_Ypbpr_NrStrGain
+databasedef:PQ_Vga_CtiGain
+databasedef:PQ_Vga_SatGain
+databasedef:PQ_Vga_HueGain
+databasedef:PQ_Vga_BriGain
+databasedef:PQ_Vga_NrStrGain
+databasedef:PQ_Media_CtiGain
+databasedef:PQ_Media_SatGain
+databasedef:PQ_Media_HueGain
+databasedef:PQ_Media_BriGain
+databasedef:PQ_Media_NrStrGain
+databasedef:PQ_Hdmi_CtiGain
+databasedef:PQ_Hdmi_SatGain
+databasedef:PQ_Hdmi_HueGain
+databasedef:PQ_Hdmi_BriGain
+databasedef:PQ_Hdmi_NrStrGain
+databasedef:PQ_Dtmb_CtiGain
+databasedef:PQ_Dtmb_SatGain
+databasedef:PQ_Dtmb_HueGain
+databasedef:PQ_Dtmb_BriGain
+databasedef:PQ_Dtmb_NrStrGain
+databasedef:PQ_Dvbc_CtiGain
+databasedef:PQ_Dvbc_SatGain
+databasedef:PQ_Dvbc_HueGain
+databasedef:PQ_Dvbc_BriGain
+databasedef:PQ_Dvbc_NrStrGain
+databasedef:PQ_Atsc_CtiGain
+databasedef:PQ_Atsc_SatGain
+databasedef:PQ_Atsc_HueGain
+databasedef:PQ_Atsc_BriGain
+databasedef:PQ_Atsc_NrStrGain
+databasedef:PQ_Dvbt_CtiGain
+databasedef:PQ_Dvbt_SatGain
+databasedef:PQ_Dvbt_HueGain
+databasedef:PQ_Dvbt_BriGain
+databasedef:PQ_Dvbt_NrStrGain
+databasedef:PQ_Isdbt_CtiGain
+databasedef:PQ_Isdbt_SatGain
+databasedef:PQ_Isdbt_HueGain
+databasedef:PQ_Isdbt_BriGain
+databasedef:PQ_Isdbt_NrStrGain
+databasedef:PQ_Dvbs_CtiGain
+databasedef:PQ_Dvbs_SatGain
+databasedef:PQ_Dvbs_HueGain
+databasedef:PQ_Dvbs_BriGain
+databasedef:PQ_Dvbs_NrStrGain
+databasedef:PQ_Scart_CtiGain
+databasedef:PQ_Scart_SatGain
+databasedef:PQ_Scart_HueGain
+databasedef:PQ_Scart_BriGain
+databasedef:PQ_Scart_NrStrGain
+databasedef:PicPQ_atv_dci
+databasedef:PicPQ_atv_ble
+databasedef:PicPQ_atv_dbc
+databasedef:PicPQ_atv_pqmodule
+databasedef:PicPQ_atv_hdmiclr
+databasedef:PicPQ_atv_pqtconmodule
+databasedef:PicPQ_dvbc_dci
+databasedef:PicPQ_dvbc_ble
+databasedef:PicPQ_dvbc_dbc
+databasedef:PicPQ_dvbc_pqmodule
+databasedef:PicPQ_dvbc_hdmiclr
+databasedef:PicPQ_dvbc_pqtconmodule
+databasedef:PicPQ_dtmb_dci
+databasedef:PicPQ_dtmb_ble
+databasedef:PicPQ_dtmb_dbc
+databasedef:PicPQ_dtmb_pqmodule
+databasedef:PicPQ_dtmb_hdmiclr
+databasedef:PicPQ_dtmb_pqtconmodule
+databasedef:PicPQ_cvbs_dci
+databasedef:PicPQ_cvbs_ble
+databasedef:PicPQ_cvbs_dbc
+databasedef:PicPQ_cvbs_pqmodule
+databasedef:PicPQ_cvbs_hdmiclr
+databasedef:PicPQ_cvbs_pqtconmodule
+databasedef:PicPQ_vga_dci
+databasedef:PicPQ_vga_ble
+databasedef:PicPQ_vga_dbc
+databasedef:PicPQ_vga_pqmodule
+databasedef:PicPQ_vga_hdmiclr
+databasedef:PicPQ_vga_pqtconmodule
+databasedef:PicPQ_ypbpr_dci
+databasedef:PicPQ_ypbpr_ble
+databasedef:PicPQ_ypbpr_dbc
+databasedef:PicPQ_ypbpr_pqmodule
+databasedef:PicPQ_ypbpr_hdmiclr
+databasedef:PicPQ_ypbpr_pqtconmodule
+databasedef:PicPQ_hdmi_dci
+databasedef:PicPQ_hdmi_ble
+databasedef:PicPQ_hdmi_dbc
+databasedef:PicPQ_hdmi_pqmodule
+databasedef:PicPQ_hdmi_hdmiclr
+databasedef:PicPQ_hdmi_pqtconmodule
+databasedef:PicPQ_media_dci
+databasedef:PicPQ_media_ble
+databasedef:PicPQ_media_dbc
+databasedef:PicPQ_media_pqmodule
+databasedef:PicPQ_media_hdmiclr
+databasedef:PicPQ_media_pqtconmodule
+databasedef:PicPQ_dvbt_dci
+databasedef:PicPQ_dvbt_ble
+databasedef:PicPQ_dvbt_dbc
+databasedef:PicPQ_dvbt_pqmodule
+databasedef:PicPQ_dvbt_hdmiclr
+databasedef:PicPQ_dvbt_pqtconmodule
+databasedef:PicPQ_atsc_dci
+databasedef:PicPQ_atsc_ble
+databasedef:PicPQ_atsc_dbc
+databasedef:PicPQ_atsc_pqmodule
+databasedef:PicPQ_atsc_hdmiclr
+databasedef:PicPQ_atsc_pqtconmodule
+databasedef:PicPQ_dvbs_dci
+databasedef:PicPQ_dvbs_ble
+databasedef:PicPQ_dvbs_dbc
+databasedef:PicPQ_dvbs_pqmodule
+databasedef:PicPQ_dvbs_hdmiclr
+databasedef:PicPQ_dvbs_pqtconmodule
+databasedef:PicPQ_isdbt_dci
+databasedef:PicPQ_isdbt_ble
+databasedef:PicPQ_isdbt_dbc
+databasedef:PicPQ_isdbt_pqmodule
+databasedef:PicPQ_isdbt_hdmiclr
+databasedef:PicPQ_isdbt_pqtconmodule
+databasedef:PicPQ_scart_dci
+databasedef:PicPQ_scart_ble
+databasedef:PicPQ_scart_dbc
+databasedef:PicPQ_scart_pqmodule
+databasedef:PicPQ_scart_hdmiclr
+databasedef:PicPQ_scart_pqtconmodule
+imagemode:NrEnable
+globalconfig:DisableSharpOnRGB
+globalconfig:MemcSupport
+globalconfig:ViLowLatencyMode
+pqgeneralconfig:PQNROff
+pqgeneralconfig:PQNRLow
+pqgeneralconfig:PQNRMid
+pqgeneralconfig:PQNRHigh
+pqgeneralconfig:PQDBOff
+pqgeneralconfig:PQDBLow
+pqgeneralconfig:PQDBMid
+pqgeneralconfig:PQDBHigh
+pqgeneralconfig:PQDROff
+pqgeneralconfig:PQDRLow
+pqgeneralconfig:PQDRMid
+pqgeneralconfig:PQDRHigh
+AutoKeystone:BYPASS_SENSORS
+Motor:SW_TORQUE_DELAY_US
+Motor:SW_START_DELAY_US
+Motor:SW_BRAKE_DELAY_US
+DCMotor:SW_ATOMIC_DELAY_US
+DCMotor:SW_DIR_CHANGE_DELAY_US
+DCMotor:SW_START_DELAY_US
+DCMotor:SW_BRAKE_DELAY_US
+Multiplexer:DEFAULT_SWITCH_DELAY_MS
+pQ3e
+_ZN8HiMsgHub17UnregisterHandlerEP11IMsgHandler
+_ZNSt3__114__split_bufferIPN8HiMsgHub8InnerMsgENS_9allocatorIS3_EEE10push_frontEOS3_
+_ZNSt3__114__split_bufferIPN8HiMsgHub8InnerMsgENS_9allocatorIS3_EEE9push_backEOS3_
+_ZNSt3__114__split_bufferIPN8HiMsgHub8InnerMsgERNS_9allocatorIS3_EEE10push_frontERKS3_
+_ZNSt3__114__split_bufferIPN8HiMsgHub8InnerMsgERNS_9allocatorIS3_EEE9push_backEOS3_
+_ZNSt3__114__split_bufferIPNS_4pairIP10HiMWThreadNS1_IM8HiMsgHubFvS3_PKvEbEEEENS_9allocatorISB_EEE10push_frontEOSB_
+_ZNSt3__114__split_bufferIPNS_4pairIP10HiMWThreadNS1_IM8HiMsgHubFvS3_PKvEbEEEENS_9allocatorISB_EEE9push_backEOSB_
+_ZNSt3__114__split_bufferIPNS_4pairIP10HiMWThreadNS1_IM8HiMsgHubFvS3_PKvEbEEEERNS_9allocatorISB_EEE10push_frontERKSB_
+_ZNSt3__114__split_bufferIPNS_4pairIP10HiMWThreadNS1_IM8HiMsgHubFvS3_PKvEbEEEERNS_9allocatorISB_EEE9push_backEOSB_
+_ZThn56_N8HiMsgHub17UnregisterHandlerEP11IMsgHandler
+memcpy_s
+__aeabi_memclr8
+__aeabi_memcpy
+__aeabi_memclr
+UnregisterHandler
+memcpy_s_func failed rc = %d
+_ZN6vendor9hisilicon8hardware6hwtvmw4V1_014implementation6Hwtvmw12getCapBufferEjNSt3__18functionIFvRKN7android8hardware11hidl_memoryEEEE
+__aeabi_memclr
+_ZNSt3__114__split_bufferIN7android2spIN6vendor9hisilicon8hardware6hwtvmw4V1_015IHwtvmwCallbackEEERNS_9allocatorIS9_EEEC2EjjSC_
+_ZNSt3__114__split_bufferIN7android2spIN6vendor9hisilicon8hardware6hwtvmw4V1_015IHwtvmwCallbackEEERNS_9allocatorIS9_EEED2Ev
+_ZNSt3__16vectorIN7android2spIN6vendor9hisilicon8hardware6hwtvmw4V1_015IHwtvmwCallbackEEENS_9allocatorIS9_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS9_RSB_EE
+Hwtvmw getCapBuffer   id = %d

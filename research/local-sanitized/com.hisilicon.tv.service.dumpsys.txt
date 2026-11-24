@@ -1,0 +1,269 @@
+Service Resolver Table:
+  Non-Data Actions:
+      com.hisilicon.tv.service.TvService:
+        17ee1f5 com.hisilicon.tv.service/.TvService filter 15b668f permission com.hisilicon.permission.COMMON_PERMISSION
+          Action: "com.hisilicon.tv.service.TvService"
+
+Permissions:
+  Permission [com.hisilicon.tv.service.write] (45d0b8a):
+    sourcePackage=com.hisilicon.tv.service
+    uid=1000 gids=null type=0 prot=signature|privileged
+    perm=Permission{bde25fb com.hisilicon.tv.service.write}
+    packageSetting=PackageSetting{c927460 com.hisilicon.tv.service/1000}
+
+Permissions:
+  Permission [com.hisilicon.tv.service.read] (84ad618):
+    sourcePackage=com.hisilicon.tv.service
+    uid=1000 gids=null type=0 prot=signature|privileged
+    perm=Permission{3a8a871 com.hisilicon.tv.service.read}
+    packageSetting=PackageSetting{c927460 com.hisilicon.tv.service/1000}
+
+Registered ContentProviders:
+  com.hisilicon.tv.service/.TvServiceProvider:
+    Provider{a885656 com.hisilicon.tv.service/.TvServiceProvider}
+
+ContentProvider Authorities:
+  [com.hisilicon.tv.service]:
+    Provider{a885656 com.hisilicon.tv.service/.TvServiceProvider}
+      applicationInfo=ApplicationInfo{2df26d7 com.hisilicon.tv.service}
+
+Key Set Manager:
+  [com.hisilicon.tv.service]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.hisilicon.tv.service] (c927460):
+    userId=1000
+    sharedUser=SharedUserSetting{9848f12 android.uid.system/1000}
+    pkg=Package{8233bc4 com.hisilicon.tv.service}
+    codePath=/system/app/HiTvService
+    resourcePath=/system/app/HiTvService
+    legacyNativeLibraryDir=/system/app/HiTvService/lib
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    versionCode=28 minSdk=28 targetSdk=29
+    versionName=9
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{2df26d7 com.hisilicon.tv.service}
+    flags=[ SYSTEM HAS_CODE PERSISTENT ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION DIRECT_BOOT_AWARE ]
+    dataDir=/data/user/0/com.hisilicon.tv.service
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      com.hisilicon.android
+      com.hisilicon.dtv
+      com.hisilicon.android.tvapi
+    usesLibraryFiles:
+      /system/framework/HitvManager.jar
+      /system/framework/HiDtvShare.jar
+      /system/framework/HitvShare.jar
+    timeStamp=2008-12-31 16:00:00
+    firstInstallTime=2008-12-31 16:00:00
+    lastUpdateTime=2008-12-31 16:00:00
+    signatures=PackageSignatures{ce5aad version:3, signatures:[b4addb29], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE PERSISTENT ALLOW_CLEAR_USER_DATA ]
+    declared permissions:
+      com.hisilicon.permission.COMMON_PERMISSION: prot=signature|privileged
+      com.hisilicon.tv.service.read: prot=signature|privileged, INSTALLED
+      com.hisilicon.tv.service.write: prot=signature|privileged, INSTALLED
+    requested permissions:
+      android.permission.WRITE_SETTINGS
+      android.permission.SET_TIME
+      com.hisilicon.permission.COMMON_PERMISSION
+      android.permission.BLUETOOTH
+      com.hisilicon.tv.service.read
+      com.hisilicon.tv.service.write
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      android.permission.RECOVERY: granted=true
+      android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.INSTALL_LOCATION_PROVIDER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.CLEAR_APP_USER_DATA: granted=true
+      android.permission.INSTALL_PACKAGES: granted=true
+      android.permission.SHUTDOWN: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CHANGE_OVERLAY_PACKAGES: granted=true
+      com.hisilicon.tv.service.write: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.hisilicon.tv.service.read: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.SET_TIME_ZONE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.BATTERY_STATS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.GET_ACCOUNTS_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.READ_PHONE_STATE: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.TRIGGER_TIME_ZONE_RULES_CHECK: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE: granted=true
+      android.permission.BIND_JOB_SERVICE: granted=true
+      android.permission.CONFIRM_FULL_BACKUP: granted=true
+      android.permission.SET_TIME: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      com.hisilicon.higallery.permission.BACKGROUNDMUSIC: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.SET_PREFERRED_APPLICATIONS: granted=true
+      android.permission.DELETE_CACHE_FILES: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.BACKUP: granted=true
+      android.permission.CAMERA: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.REBOOT: granted=true
+      android.permission.MOUNT_FORMAT_FILESYSTEMS: granted=true
+      android.permission.PROCESS_OUTGOING_CALLS: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      com.hisilicon.permission.COMMON_PERMISSION: granted=true
+      android.permission.SEND_SHOW_SUSPENDED_APP_DETAILS: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      android.permission.SET_WALLPAPER_HINTS: granted=true
+      com.hisilicon.rmservice.permission.RECEIVER_COMMON: granted=true
+      com.hisilicon.android.videoplayer.PLAY_PERMISSION: granted=true
+      android.permission.GET_ACCOUNTS: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=true
+      android.permission.DUMP: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.READ_CONTACTS: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.INJECT_EVENTS: granted=true
+      com.hisilicon.rmservice.permission.FEATURE_CUSTOM: granted=true
+      android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE: granted=true
+    User 0: ceDataInode=-4294966591 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+
+Shared users:
+  SharedUser [android.uid.system] (9848f12):
+    userId=1000
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      android.permission.RECOVERY: granted=true
+      android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.INSTALL_LOCATION_PROVIDER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.CLEAR_APP_USER_DATA: granted=true
+      android.permission.INSTALL_PACKAGES: granted=true
+      android.permission.SHUTDOWN: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CHANGE_OVERLAY_PACKAGES: granted=true
+      com.hisilicon.tv.service.write: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.hisilicon.tv.service.read: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.SET_TIME_ZONE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.BATTERY_STATS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.GET_ACCOUNTS_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.READ_PHONE_STATE: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.TRIGGER_TIME_ZONE_RULES_CHECK: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE: granted=true
+      android.permission.BIND_JOB_SERVICE: granted=true
+      android.permission.CONFIRM_FULL_BACKUP: granted=true
+      android.permission.SET_TIME: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      com.hisilicon.higallery.permission.BACKGROUNDMUSIC: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.SET_PREFERRED_APPLICATIONS: granted=true
+      android.permission.DELETE_CACHE_FILES: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.BACKUP: granted=true
+      android.permission.CAMERA: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.REBOOT: granted=true
+      android.permission.MOUNT_FORMAT_FILESYSTEMS: granted=true
+      android.permission.PROCESS_OUTGOING_CALLS: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      com.hisilicon.permission.COMMON_PERMISSION: granted=true
+      android.permission.SEND_SHOW_SUSPENDED_APP_DETAILS: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      android.permission.SET_WALLPAPER_HINTS: granted=true
+      com.hisilicon.rmservice.permission.RECEIVER_COMMON: granted=true
+      com.hisilicon.android.videoplayer.PLAY_PERMISSION: granted=true
+      android.permission.GET_ACCOUNTS: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=true
+      android.permission.DUMP: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.READ_CONTACTS: granted=true, flags=[ SYSTEM_FIXED GRANTED_BY_DEFAULT ]
+      android.permission.INJECT_EVENTS: granted=true
+      com.hisilicon.rmservice.permission.FEATURE_CUSTOM: granted=true
+      android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE: granted=true
+    User 0: 
+      gids=[1065, 3002, 1023, 3003, 3001]
+      runtime permissions:
+
+Package Changes:
+  Sequence number=0
+
+
+Dexopt state:
+  [com.hisilicon.tv.service]
+    path: /system/app/HiTvService/HiTvService.apk
+      arm: [status=quicken] [reason=prebuilt]
+
+
+Compiler stats:
+  [com.hisilicon.tv.service]
+    (No recorded stats)

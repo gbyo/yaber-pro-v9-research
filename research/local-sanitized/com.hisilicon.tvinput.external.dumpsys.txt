@@ -1,0 +1,82 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1988a5e com.hisilicon.tvinput.external/.HiexternalSetupActivity filter e274a11
+          Action: "android.intent.action.MAIN"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.media.tv.TvInputService:
+        acfbe3f com.hisilicon.tvinput.external/.HiHdmiTvInputService filter 298a995 permission android.permission.BIND_TV_INPUT
+          Action: "android.media.tv.TvInputService"
+        a25630c com.hisilicon.tvinput.external/.HiYpbprTvInputService filter ce9caaa permission android.permission.BIND_TV_INPUT
+          Action: "android.media.tv.TvInputService"
+        d610455 com.hisilicon.tvinput.external/.HiCvbsTvInputService filter 4c7469b permission android.permission.BIND_TV_INPUT
+          Action: "android.media.tv.TvInputService"
+        5eee6a com.hisilicon.tvinput.external/.HiVgaTvInputService filter 73e7a38 permission android.permission.BIND_TV_INPUT
+          Action: "android.media.tv.TvInputService"
+
+Permissions:
+  Permission [com.hisilicon.tvinput.external.permission.EXTERNAL_TV_INPUT_SETUP] (50bff5b):
+    sourcePackage=com.hisilicon.tvinput.external
+    uid=10028 gids=null type=0 prot=signature|privileged
+    perm=Permission{94ba3f8 com.hisilicon.tvinput.external.permission.EXTERNAL_TV_INPUT_SETUP}
+    packageSetting=PackageSetting{afa90d1 com.hisilicon.tvinput.external/10028}
+
+Key Set Manager:
+  [com.hisilicon.tvinput.external]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.hisilicon.tvinput.external] (afa90d1):
+    userId=10028
+    pkg=Package{7758736 com.hisilicon.tvinput.external}
+    codePath=/system/app/HiExternalTvInput
+    resourcePath=/system/app/HiExternalTvInput
+    legacyNativeLibraryDir=/system/app/HiExternalTvInput/lib
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=28 targetSdk=28
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{6013637 com.hisilicon.tvinput.external}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ]
+    dataDir=/data/user/0/com.hisilicon.tvinput.external
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 16:00:00
+    firstInstallTime=2008-12-31 16:00:00
+    lastUpdateTime=2008-12-31 16:00:00
+    signatures=PackageSignatures{29307a4 version:3, signatures:[b4addb29], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    declared permissions:
+      com.hisilicon.tvinput.external.permission.EXTERNAL_TV_INPUT_SETUP: prot=signature|privileged, INSTALLED
+    requested permissions:
+      com.hisilicon.permission.COMMON_PERMISSION
+      android.permission.TV_INPUT_HARDWARE
+      android.permission.HDMI_CEC
+      com.android.tv.permission.RECEIVE_INPUT_EVENT
+      android.permission.WRITE_SECURE_SETTINGS
+    install permissions:
+      android.permission.TV_INPUT_HARDWARE: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.hisilicon.permission.COMMON_PERMISSION: granted=true
+      android.permission.HDMI_CEC: granted=true
+    User 0: ceDataInode=-4294966461 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      runtime permissions:
+
+Package Changes:
+  Sequence number=0
+
+
+Dexopt state:
+  [com.hisilicon.tvinput.external]
+    path: /system/app/HiExternalTvInput/HiExternalTvInput.apk
+      arm: [status=quicken] [reason=prebuilt]
+
+
+Compiler stats:
+  [com.hisilicon.tvinput.external]
+    (No recorded stats)
