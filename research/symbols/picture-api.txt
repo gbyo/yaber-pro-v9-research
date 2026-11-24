@@ -1,0 +1,43 @@
+Recovered com.hisilicon.android.tvapi Picture surface
+
+getMEMCLevel()
+getMemcDelay()
+getNR()
+getPQModule(int)
+getPcMode()
+getPictureMode()
+getSRLevel()
+getSharpness()
+
+isDynamicBLEnable()
+isDCIEnable()
+isGameModeEnable()
+isGraphicsMode()
+isOverscanEnable()
+
+setMEMCLevel(int)
+setNR(int)
+setPcMode(int)
+setPictureMode(int)
+setPQModule(int, boolean)
+setSRLevel(int)
+setSharpness(int)
+enableGameMode(boolean)
+
+Relevant command-name strings seen in the optimized framework:
+CMD_PICTURE_GETGAMEMODEENABLE
+CMD_PICTURE_SETGAMEMODEENABLE
+CMD_PICTURE_GETMEMCDELAY
+CMD_PICTURE_GETMEMCLEVEL
+CMD_PICTURE_GETNR
+CMD_PICTURE_GETPCMODE
+CMD_PICTURE_GETPICTUREMODE
+CMD_PICTURE_GETPQMODULE
+CMD_PICTURE_SETMEMCDELAY
+CMD_PICTURE_SETMEMCLEVEL
+CMD_PICTURE_SETNR
+CMD_PICTURE_SETPCMODE
+CMD_PICTURE_SETPICTUREMODE
+CMD_PICTURE_SETPQMODULE
+CMD_PICTURE_GETOVERSCANENABLE
+CMD_PICTURE_SETOVERSCANENABLE
