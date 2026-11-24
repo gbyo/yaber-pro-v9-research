@@ -1,0 +1,43 @@
+# macOS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets / keys
+*.pem
+*.pk8
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+secrets/
+private/
+
+# Firmware / vendor binaries / backups
+*.apk
+*.so
+*.odex
+*.vdex
+*.oat
+*.art
+*.img
+*.bin
+*.zip
+*.xz
+*.gz
+*.7z
+*.tar
+*.tgz
+projector-backup-*/
+backups/
+firmware/
+vendor-blobs/
+
+# Local raw captures
+research/raw/
+research/private/
