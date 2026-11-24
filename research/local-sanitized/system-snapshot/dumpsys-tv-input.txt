@@ -1,0 +1,77 @@
+User Ids (Current user: 0):
+  0
+UserState (0):
+  inputMap: inputId -> TvInputState
+    com.hisilicon.tvinput.external/.HiVgaTvInputService/HW1: info: TvInputInfo{id=com.hisilicon.tvinput.external/.HiVgaTvInputService/HW1, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiVgaTvInputService}; state: 1
+    com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C3: info: TvInputInfo{id=com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C3, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiHdmiTvInputService}; state: 1
+    com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C1: info: TvInputInfo{id=com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C1, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiHdmiTvInputService}; state: 1
+    com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C2: info: TvInputInfo{id=com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C2, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiHdmiTvInputService}; state: 0
+    com.hisilicon.tvinput.external/.HiCvbsTvInputService/HW0: info: TvInputInfo{id=com.hisilicon.tvinput.external/.HiCvbsTvInputService/HW0, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiCvbsTvInputService}; state: 1
+  packageSet:
+    com.hisilicon.tvinput.external
+  clientStateMap: ITvInputClient -> ClientState
+  serviceStateMap: ComponentName -> ServiceState
+    ComponentInfo{com.hisilicon.tvinput.external/com.hisilicon.tvinput.external.HiCvbsTvInputService}: com.android.server.tv.TvInputManagerService$ServiceState@f5a652d
+      sessionTokens:
+      service: android.media.tv.ITvInputService$Stub$Proxy@21efa62
+      callback: com.android.server.tv.TvInputManagerService$ServiceCallback@146a7f3
+      bound: true
+      reconnecting: false
+    ComponentInfo{com.hisilicon.tvinput.external/com.hisilicon.tvinput.external.HiYpbprTvInputService}: com.android.server.tv.TvInputManagerService$ServiceState@b33bcb0
+      sessionTokens:
+      service: android.media.tv.ITvInputService$Stub$Proxy@8a52729
+      callback: com.android.server.tv.TvInputManagerService$ServiceCallback@2f65aae
+      bound: true
+      reconnecting: false
+    ComponentInfo{com.hisilicon.tvinput.external/com.hisilicon.tvinput.external.HiHdmiTvInputService}: com.android.server.tv.TvInputManagerService$ServiceState@319d04f
+      sessionTokens:
+      service: android.media.tv.ITvInputService$Stub$Proxy@b8ff3dc
+      callback: com.android.server.tv.TvInputManagerService$ServiceCallback@c00ce5
+      bound: true
+      reconnecting: false
+    ComponentInfo{com.hisilicon.tvinput.external/com.hisilicon.tvinput.external.HiVgaTvInputService}: com.android.server.tv.TvInputManagerService$ServiceState@3d173ba
+      sessionTokens:
+      service: android.media.tv.ITvInputService$Stub$Proxy@d4d226b
+      callback: com.android.server.tv.TvInputManagerService$ServiceCallback@41671c8
+      bound: true
+      reconnecting: false
+  sessionStateMap: ITvInputSession -> SessionState
+  callbackSet:
+    android.media.tv.ITvInputManagerCallback$Stub$Proxy@c0bc9f8
+    android.media.tv.ITvInputManagerCallback$Stub$Proxy@87ffc48
+    android.media.tv.ITvInputManagerCallback$Stub$Proxy@f8e6359
+    android.media.tv.ITvInputManagerCallback$Stub$Proxy@14c7d65
+    android.media.tv.ITvInputManagerCallback$Stub$Proxy@3ade006
+    android.media.tv.TvInputManager$2@83e5452
+    android.media.tv.ITvInputManagerCallback$Stub$Proxy@8958d69
+    android.media.tv.ITvInputManagerCallback$Stub$Proxy@50c8ae1
+    android.media.tv.ITvInputManagerCallback$Stub$Proxy@7a438b9
+    android.media.tv.ITvInputManagerCallback$Stub$Proxy@93aa054
+  mainSessionToken: null
+TvInputHardwareManager Info:
+  mConnections: deviceId -> Connection
+    0: Connection{ mHardwareInfo: TvInputHardwareInfo {id=0, type=3, audio_type=0, audio_addr=null, cable_connection_status=0}, mInfo: TvInputInfo{id=com.hisilicon.tvinput.external/.HiCvbsTvInputService/HW0, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiCvbsTvInputService}, mCallback: android.media.tv.ITvInputHardwareCallback$Stub$Proxy@904e274, mConfigs: [], mCallingUid: 1000, mResolvedUserId: 0 }
+    1: Connection{ mHardwareInfo: TvInputHardwareInfo {id=1, type=7, audio_type=0, audio_addr=null, cable_connection_status=0}, mInfo: TvInputInfo{id=com.hisilicon.tvinput.external/.HiVgaTvInputService/HW1, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiVgaTvInputService}, mCallback: android.media.tv.ITvInputHardwareCallback$Stub$Proxy@dcbf39d, mConfigs: [], mCallingUid: 1000, mResolvedUserId: 0 }
+    2: Connection{ mHardwareInfo: TvInputHardwareInfo {id=2, type=9, audio_type=0, audio_addr=null, hdmi_port=1, cable_connection_status=0}, mInfo: null, mCallback: null, mConfigs: [], mCallingUid: null, mResolvedUserId: null }
+    3: Connection{ mHardwareInfo: TvInputHardwareInfo {id=3, type=9, audio_type=0, audio_addr=null, hdmi_port=2, cable_connection_status=0}, mInfo: null, mCallback: null, mConfigs: [TvStreamConfig {mStreamId=0;mType=1;mGeneration=2}], mCallingUid: null, mResolvedUserId: null }
+    4: Connection{ mHardwareInfo: TvInputHardwareInfo {id=4, type=9, audio_type=0, audio_addr=null, hdmi_port=3, cable_connection_status=0}, mInfo: null, mCallback: null, mConfigs: [], mCallingUid: null, mResolvedUserId: null }
+  mHardwareList:
+    TvInputHardwareInfo {id=0, type=3, audio_type=0, audio_addr=null, cable_connection_status=0}
+    TvInputHardwareInfo {id=1, type=7, audio_type=0, audio_addr=null, cable_connection_status=0}
+    TvInputHardwareInfo {id=2, type=9, audio_type=0, audio_addr=null, hdmi_port=1, cable_connection_status=0}
+    TvInputHardwareInfo {id=3, type=9, audio_type=0, audio_addr=null, hdmi_port=2, cable_connection_status=0}
+    TvInputHardwareInfo {id=4, type=9, audio_type=0, audio_addr=null, hdmi_port=3, cable_connection_status=0}
+  mHdmiDeviceList:
+  mHardwareInputIdMap: deviceId -> inputId
+    0: com.hisilicon.tvinput.external/.HiCvbsTvInputService/HW0
+    1: com.hisilicon.tvinput.external/.HiVgaTvInputService/HW1
+    2: com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C1
+    3: com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C2
+    4: com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C3
+  mHdmiInputIdMap: id -> inputId
+  mInputMap: inputId -> inputInfo
+    com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C1: TvInputInfo{id=com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C1, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiHdmiTvInputService}
+    com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C2: TvInputInfo{id=com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C2, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiHdmiTvInputService}
+    com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C3: TvInputInfo{id=com.hisilicon.tvinput.external/.HiHdmiTvInputService/HDMI0000C3, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiHdmiTvInputService}
+    com.hisilicon.tvinput.external/.HiCvbsTvInputService/HW0: TvInputInfo{id=com.hisilicon.tvinput.external/.HiCvbsTvInputService/HW0, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiCvbsTvInputService}
+    com.hisilicon.tvinput.external/.HiVgaTvInputService/HW1: TvInputInfo{id=com.hisilicon.tvinput.external/.HiVgaTvInputService/HW1, pkg=com.hisilicon.tvinput.external, service=com.hisilicon.tvinput.external.HiVgaTvInputService}

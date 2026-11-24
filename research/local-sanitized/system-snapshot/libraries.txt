@@ -1,0 +1,13 @@
+library:android.ext.services
+library:android.ext.shared
+library:android.test.base
+library:android.test.mock
+library:android.test.runner
+library:com.android.location.provider
+library:com.android.media.remotedisplay
+library:com.android.mediadrm.signer
+library:com.hisilicon.android
+library:com.hisilicon.android.tvapi
+library:com.hisilicon.dtv
+library:javax.obex
+library:org.apache.http.legacy
