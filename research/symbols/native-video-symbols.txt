@@ -1,0 +1,32 @@
+Selected native symbols relevant to video, Game Mode, latency, and VPSS
+
+HiPicture::SetGameModeEnable(HI_BOOL)
+HiPicture::SetGameModeEnableSub(...)
+HiPicture::GetGameModeEnable(HI_BOOL*)
+
+HiVideoPlay::SetGameModeEnable(HI_BOOL)
+HiVideoPlay::SetGameModeEnableSub(HI_BOOL, hiMW_VIDEO_INFO_S&, hiMW_VI_ATTR_S&)
+HiVideoPlay::getVideoDelay(unsigned int*)
+HiVideoPlay::SetMemcDelay(hiMW_DISP_DELAY_S)
+HiVideoPlay::GetMemcDelay(hiMW_DISP_DELAY_S*)
+HiVideoPlay::setMemc(hiMW_MEMC_S const*)
+HiVideoPlay::setMemcDemo(HI_BOOL)
+HiVideoPlay::SetViPictureMode(HI_MW_VI_PICTURE_MODE_E)
+
+HiHdmiPlayer::ConfigBypassVpss(hiMW_VIDEO_INFO_S&)
+HiHdmiPlayer::SetPictureParam(HI_BOOL, HI_BOOL)
+HiHdmiPlayer::SetParamPicPqData(HI_BOOL)
+
+HI_UNF_VO_QueryVideoDelay
+HI_UNF_DISP_SetChnDelay
+HI_UNF_DISP_GetChnDelay
+HI_UNF_DISP_SetMemcEnable
+HI_UNF_DISP_SetMemcLevel
+
+Build-specific Thumb symbol addresses observed in libhitvservice.so:
+HiPicture::SetGameModeEnableSub  0x143e41
+HiPicture::SetGameModeEnable     0x1440c1
+HiPicture::GetGameModeEnable     0x144299
+HiVideoPlay::SetGameModeEnableSub 0x16ee25
+HiVideoPlay::SetGameModeEnable    0x16eee1
+HiHdmiPlayer::ConfigBypassVpss    0x0f9f25
