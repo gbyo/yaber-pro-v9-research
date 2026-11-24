@@ -1,0 +1,20 @@
+Recovered com.hisilicon.android.tvapi SourceManager surface
+
+getAvailSourceList()
+getBootSource()
+getCurSourceId(int)
+getSelectSourceId()
+getSignalStatus()
+getSourceList()
+getTimingInfo()
+getVideoDefinition()
+getWindowRect(int)
+
+selectSource(int,int)
+selectSource(int,int,int)
+setBootSource(int)
+setFocusWindow(int)
+
+Observed Newlink source IDs:
+HDMI1 = 11
+HDMI2 = 10
