@@ -61,3 +61,37 @@ These projects are related to the broader Newlink/HiSilicon projector family, bu
 - `Vibhav-Aggarwal/hi3751v350-projector`
 - `axelp/ImperfectProjector`
 
+
+
+## Evidence and reproducibility
+
+The repository now includes public-safe runtime evidence, curated API/symbol
+inventories, compatibility notes, and scripts for reproducing the native
+Game Mode investigation from a locally obtained firmware copy.
+
+Key additions:
+
+- `docs/evidence.md` — finding-to-evidence map
+- `docs/compatibility.md` — exact tested build and offset caveats
+- `docs/performance-baseline.md` — stock launcher performance sample
+- `research/evidence/game-mode-vpss-1080p60.log` — direct VPSS-bypass proof
+- `research/evidence/java-game-mode-command-trace.log` — `0x1030`/`0x1031` trace
+- `research/evidence/game-mode-pq-state.txt` — unchanged public PQ getters
+- `research/symbols/` — curated Java/native API and symbol inventories
+- `research/manifests/binary-fingerprints.md` — binary identity guidance
+- `scripts/extract-game-mode-research.sh` — reproduce targeted disassembly
+- `scripts/hash-research-inputs.sh` — generate local SHA-256 fingerprints
+
+The original local `vendor-api-hits.txt` was not force-published after the
+sanitizer flagged it for manual review. Its useful public-safe findings are
+captured in `research/symbols/vendor-api-hits-curated.txt`.
+
+Exact SHA-256 hashes for proprietary local binaries are intentionally left
+for a follow-up local commit rather than guessed. The binaries themselves
+should remain outside the public repository.
+
+## Licensing
+
+Original project documentation, scripts, and analysis are MIT licensed.
+See `NOTICE.md` for the treatment of vendor names, strings, symbols, log
+excerpts, and small reverse-engineering excerpts.
