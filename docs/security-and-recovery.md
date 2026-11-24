@@ -59,3 +59,25 @@ Until a separate recovery path is validated, avoid:
 - prefer public APIs over patching binaries
 - use Frida for observation before mutation
 - persist only changes that are understood and reversible
+
+
+## Power-management experiments
+
+The HiSilicon framework exposes `shutdown`, `str`, `lightsleep`, and `lowpower` modes plus AP-standby and wake-source controls.
+
+The tested Yaber configuration currently uses:
+
+```text
+persist.sys.suspend.mode=shutdown
+```
+
+Do not permanently change the suspend mode until a recovery path for a failed resume is understood.
+
+Additional cautions:
+
+- do not assume a mode string present in the framework is safe on this exact board
+- do not treat `setSrcWakeupEnable(...)` as a normal boolean preference setter; disabled sources returned `-1` in runtime tests
+- avoid further `setTifCecOption(...)` writes until the cause of a Frida/device disconnect during a setter probe is known
+- keep the stock power service intact during replacement-UI development
+- record the original property/state before every power experiment
+- change one power variable at a time and restore it before moving to another test
