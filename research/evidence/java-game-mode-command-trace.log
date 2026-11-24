@@ -1,0 +1,27 @@
+Sanitized Java-layer Frida trace
+
+[CALL] excuteCommandGet(4145)
+[CALL] invoke(android.os.Parcel..., android.os.Parcel...)
+[RET ] invoke -> 0
+[RET ] excuteCommandGet -> 1
+
+before=true
+
+===== enableGameMode(true) =====
+[CALL] excuteCommandSet(4144, 1)
+[CALL] invoke(android.os.Parcel..., android.os.Parcel...)
+[RET ] invoke -> 0
+[RET ] excuteCommandSet -> 0
+===== enableGameMode returned 0 =====
+
+[CALL] excuteCommandGet(4145)
+[CALL] invoke(android.os.Parcel..., android.os.Parcel...)
+[RET ] invoke -> 0
+[RET ] excuteCommandGet -> 1
+
+after=true
+
+Mapping established by the trace:
+
+4144 decimal = 0x1030 = SET Game Mode
+4145 decimal = 0x1031 = GET Game Mode
