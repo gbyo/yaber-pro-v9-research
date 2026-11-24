@@ -1,0 +1,32 @@
+Public Picture API comparison captured around Game Mode testing.
+
+=== GAME MODE ON ===
+isGameModeEnable: true
+getPcMode: 2
+getPictureMode: 0
+getMEMCLevel: 3
+getNR: 2
+getSharpness: 50
+getSRLevel: 1
+isOverscanEnable: true
+isDynamicBLEnable: false
+isDCIEnable: true
+isGraphicsMode: false
+
+=== GAME MODE OFF ===
+isGameModeEnable: false
+getPcMode: 2
+getPictureMode: 0
+getMEMCLevel: 3
+getNR: 2
+getSharpness: 50
+getSRLevel: 1
+isOverscanEnable: true
+isDynamicBLEnable: false
+isDCIEnable: true
+isGraphicsMode: false
+
+Conclusion: ordinary exposed PQ getters were unchanged by the toggle.
+
+Do not infer the semantic meaning of integer enum values such as
+getMEMCLevel=3 until the vendor enum is mapped.
