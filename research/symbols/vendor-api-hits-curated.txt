@@ -1,0 +1,118 @@
+Curated public-safe vendor API/string inventory
+
+This file replaces the original local vendor-api-hits.txt, which was not
+automatically imported because the sanitizer flagged it for manual review.
+
+HiSilicon shared libraries:
+com.hisilicon.android
+com.hisilicon.android.tvapi
+com.hisilicon.dtv
+
+HitvManager:
+getInstance()
+getPicture()
+getSourceManager()
+getCusEx()
+getHdmiCEC()
+getHdmiTx()
+getSystemSetting()
+excuteCommandGet(...)
+excuteCommandSet(...)
+invoke(Parcel, Parcel)
+native_invoke
+
+SourceManager:
+getAvailSourceList()
+getBootSource()
+getCurSourceId(int)
+getSelectSourceId()
+getSignalStatus()
+getSourceList()
+getTimingInfo()
+getVideoDefinition()
+getWindowRect(int)
+selectSource(int,int)
+selectSource(int,int,int)
+setBootSource(int)
+setFocusWindow(int)
+
+Picture:
+getMEMCLevel()
+getMemcDelay()
+getNR()
+getPQModule(int)
+getPcMode()
+getPictureMode()
+getSRLevel()
+getSharpness()
+isDynamicBLEnable()
+isDCIEnable()
+isGameModeEnable()
+isGraphicsMode()
+isOverscanEnable()
+setMEMCLevel(int)
+setNR(int)
+setPcMode(int)
+setPictureMode(int)
+setPQModule(int,boolean)
+setSRLevel(int)
+setSharpness(int)
+enableGameMode(boolean)
+
+CusEx:
+getAdvancedPictureSetting(int)
+getAutoFocus()
+getAutoKeystone(...)
+getAutoKeystoneUncalib(...)
+getFocusDistance()
+getFocusDistanceRange(int[])
+getFocusMotorKind()
+getFocusMotorLens()
+getFocusMotorLimit()
+getFocusMotorStage()
+getNativeKeystone(int[])
+interceptAutoKeystone(int)
+isFocusCameraEnable()
+resetFocusMotor()
+setAdvancedPictureSetting(int,int)
+setAutoFocus(float)
+setAutoKeystone(...)
+setFocusDistance(int)
+setFocusMotor(...)
+setFocusMotorBackward()
+setFocusMotorBrake()
+setFocusMotorForward()
+setNativeKeystone(int[])
+
+Selected PQ module names:
+PQ_MODULE_ALL
+BLUE_STRETCH
+CCCL
+COLOR
+COLOR_CORING
+DB
+DBC
+DCI
+DR
+DS
+FMD
+GAMMA
+HDR
+HSHARPNESS
+IQTM
+NR
+SDR2HDR
+SHARPNESS
+SR
+WCG
+
+Selected native strings:
+globalconfig:MemcSupport
+globalconfig:ViLowLatencyMode
+globalconfig:UHDVideoMode
+
+Selected native diagnostics:
+InitVi bGraphicMode = %d ,bBypassVpss : %d
+Set bGraphicMode:%d, bBypassVpss:%d, ret:0x%x
+if bInterlace , force bGraphicMode = HI_FALSE , bBypassVpss = HI_FALSE
+create VI with enAccess:%d,bBypassVpss:%d,bGraphicMode:%d,bInterlace:%d,Width:%d,Height:%d,FrameRate:%d
