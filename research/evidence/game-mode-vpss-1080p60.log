@@ -1,0 +1,37 @@
+Yaber Pro V9 / RG_5H045_886_DC / V1.0.1.0
+Sanitized runtime evidence
+Signal: HDMI, 1920x1080, 60 Hz, progressive
+
+=== GAME MODE OFF ===
+
+I/HiMW_logic_picture_module: [GetGameModeEnable:517] onOff:1, ret:0
+I/HiMW_PictureImpl: [isGameModeEnable:514] enable:true
+D/HiMW_framework_video_play: [start:526] InitVi bGraphicMode = 0 ,bBypassVpss : 0
+I/HiMW_framework_video_device: [create:1081] create VI with enAccess:2,bBypassVpss:0,bGraphicMode:0,bInterlace:0,Width:1920,Height:1080,FrameRate:60
+I/HiMW_framework_video_play: [InitVi:566] start VideoPlay successfully!
+I/HiMW_logic_picture: [SetGameModeEnableSub:1974] HiPicture::SetGameModeEnable finish! unfreeze window. s32Ret:0
+I/HiMW_logic_picture_module: [SetGameModeEnable:506] onOff:0, ret:0
+I/HiMW_PictureImpl: [enableGameMode:506] enable:false, execute successed ret = 0
+I/HiMW_logic_picture_module: [GetGameModeEnable:517] onOff:0, ret:0
+I/HiMW_PictureImpl: [isGameModeEnable:514] enable:false
+
+=== GAME MODE ON ===
+
+I/HiMW_logic_picture_module: [GetGameModeEnable:517] onOff:0, ret:0
+I/HiMW_PictureImpl: [isGameModeEnable:514] enable:false
+D/HiMW_framework_video_play: [start:526] InitVi bGraphicMode = 0 ,bBypassVpss : 1
+I/HiMW_framework_video_device: [create:1081] create VI with enAccess:2,bBypassVpss:1,bGraphicMode:0,bInterlace:0,Width:1920,Height:1080,FrameRate:60
+I/HiMW_framework_video_play: [InitVi:566] start VideoPlay successfully!
+I/HiMW_logic_picture: [SetGameModeEnableSub:1974] HiPicture::SetGameModeEnable finish! unfreeze window. s32Ret:0
+I/HiMW_logic_picture_module: [SetGameModeEnable:506] onOff:1, ret:0
+I/HiMW_PictureImpl: [enableGameMode:506] enable:true, execute successed ret = 0
+I/HiMW_logic_picture_module: [GetGameModeEnable:517] onOff:1, ret:0
+I/HiMW_PictureImpl: [isGameModeEnable:514] enable:true
+
+=== CONCLUSION ===
+
+OFF: bBypassVpss=0, bGraphicMode=0, bInterlace=0
+ON:  bBypassVpss=1, bGraphicMode=0, bInterlace=0
+
+For this tested 1080p60 progressive signal, hidden Game Mode enables VPSS
+bypass and recreates the active VI/video path.
