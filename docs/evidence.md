@@ -44,3 +44,23 @@ There are three useful evidence classes in this repository:
 3. **Inference** — conclusions that combine runtime and static evidence.
 
 Whenever possible, documentation distinguishes direct proof from inference.
+
+
+## Power / CEC evidence
+
+The public-safe runtime excerpt for the current power/CEC investigation is:
+
+```text
+research/evidence/power-cec-runtime-20261124.txt
+```
+
+It includes the Android framework CEC allocation failure, proprietary CEC
+device discovery, runtime wake-source state, TIF CEC option state, AP-standby
+probe, wake-source setter behavior, and the failed Apple TV wake experiment.
+
+Read-only reproduction helpers:
+
+```text
+research/frida/cec-inspect.js
+research/frida/power-state.js
+```
