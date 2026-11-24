@@ -83,7 +83,10 @@ Key additions:
 - `research/evidence/game-mode-vpss-1080p60.log` — direct VPSS-bypass proof
 - `research/evidence/java-game-mode-command-trace.log` — `0x1030`/`0x1031` trace
 - `research/evidence/game-mode-pq-state.txt` — unchanged public PQ getters
+- `research/evidence/power-cec-runtime-20261124.txt` — sanitized CEC/power runtime state and experiments
 - `research/symbols/` — curated Java/native API and symbol inventories
+- `research/frida/cec-inspect.js` — read-only proprietary CEC inspector
+- `research/frida/power-state.js` — read-only power/wakeup inspector
 - `research/manifests/binary-fingerprints.md` — binary identity guidance
 - `scripts/extract-game-mode-research.sh` — reproduce targeted disassembly
 - `scripts/hash-research-inputs.sh` — generate local SHA-256 fingerprints
