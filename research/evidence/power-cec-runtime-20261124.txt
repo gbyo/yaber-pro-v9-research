@@ -1,0 +1,158 @@
+Power / CEC runtime evidence summary
+Captured 2026-11-24
+Public-safe excerpt; private LAN/device identifiers omitted.
+
+Android framework CEC test
+--------------------------
+mHdmiControlEnabled: true
+mProhibitMode: false
+mCecController:
+  CEC message history:
+mPortInfo:
+  port 1: cec true
+  port 2: cec true
+  port 3: cec true
+mPowerStatus: 0
+
+Initialization:
+HdmiControlService: initializeCec by:0
+hdmi_cec_clear_logical_address
+sendping Src:0, Dst:0, SndRslt:0
+sendping Src:14, Dst:14, SndRslt:0
+HdmiControlService: Failed to allocate address:[device_type:0]
+
+Framework CEC was restored to disabled after testing.
+
+Proprietary HiSilicon CEC runtime
+---------------------------------
+Observed middleware traffic as logical address 0 / TV:
+- Routing Change
+- Set Stream Path
+- Active Source
+
+Observed source path:
+TIF input: HDMI0000C3
+TIF port: 3
+HiSilicon source: [11] HDMI3
+CEC physical path: 0x3000
+
+Observed Newlink saved product-facing property:
+zysys.source.hdmi1
+
+CEC device list:
+count = 1
+HdmiCecDeviceInfo [
+  iHdmiDevPort: 10,
+  iLogicAddr: 4,
+  iDevVendID: 4346,
+  strOsdName: Apple TV
+]
+
+TIF CEC options
+---------------
+0 WAKEUP              = true
+1 ENABLE_CEC          = true
+2 SYSTEM_CEC_CONTROL  = false
+3 STANDBY             = false
+4 MENUCTRL             = false
+
+Power / suspend state
+---------------------
+persist.sys.suspend=0
+persist.sys.suspend.mode=shutdown
+
+isAPStandbyEnable=false
+getPowerSaveMode=0
+isPowerOnPanelEnable=true
+
+Wake-source state
+-----------------
+0  IR          false
+1  KEYLED      false
+2  TIMEOUT     false
+3  ETH         false
+4  USB         false
+5  GPIO        false
+6  LSADC       true
+7  CEC         false
+8  UART        false
+9  VGA         true
+10 HDMI        true
+11 SCART       true
+12 TIMEOUT_BG  false
+
+Wakeup object
+-------------
+getWakeup():
+[Mode=0, Src=11, Value=-200542456]
+
+Mode=0
+Src=11
+Value=-200542456
+
+The semantics of Src and Value are not established.
+
+AP standby reversible probe
+---------------------------
+before=false
+enableAPStandby(true) returned=0
+after enable=true
+CEC while AP standby enabled:
+  false -> set(true) returned -1 -> false
+enableAPStandby(false) returned=0
+final=false
+
+Suspend properties remained:
+persist.sys.suspend=0
+persist.sys.suspend.mode=shutdown
+
+Wake-source setter behavior
+---------------------------
+Already-true sources:
+LSADC before=true set(true)=0 after=true
+VGA   before=true set(true)=0 after=true
+HDMI  before=true set(true)=0 after=true
+SCART before=true set(true)=0 after=true
+
+Already-false sources:
+IR          before=false set(false)=-1 after=false
+KEYLED      before=false set(false)=-1 after=false
+TIMEOUT     before=false set(false)=-1 after=false
+ETH         before=false set(false)=-1 after=false
+USB         before=false set(false)=-1 after=false
+GPIO        before=false set(false)=-1 after=false
+CEC         before=false set(false)=-1 after=false
+UART        before=false set(false)=-1 after=false
+TIMEOUT_BG  before=false set(false)=-1 after=false
+
+CEC false -> true also returned -1 and remained false.
+
+This means -1 is not sufficient evidence that CEC alone is unsupported.
+The setter may expose provisioned/capability state rather than an ordinary
+freely writable boolean preference.
+
+Apple TV wake experiment
+------------------------
+The projector was powered off normally and the Apple TV was then woken.
+The projector did not power itself back on.
+
+On the next manual start, boot logs began from uptime zero and reinitialized
+the panel, HDMI RX, Android system services, and TV-input services, consistent
+with a full shutdown/cold boot.
+
+WAKEUP_HDMI was already true during this configuration.
+
+Setter-probe disconnect
+-----------------------
+A later Frida session disconnected while beginning an idempotent
+setTifCecOption() probe. No successful TIF CEC setter result was captured.
+The cause was not established.
+
+Do not treat that event as proof of a CEC crash or reboot without separate
+uptime/boot-reason evidence.
+
+Safety
+------
+Do not restart hwtvmw casually.
+Do not change persistent suspend mode without a recovery plan.
+Avoid additional TIF CEC writes until the disconnect is characterized.
