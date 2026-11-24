@@ -23,6 +23,11 @@ This repository intentionally contains **facts, scripts, command recipes, and sm
 - The normal stored PQ getters (picture mode, MEMC level, NR, sharpness, SR, DCI, etc.) do not change when Game Mode toggles.
 - The firmware also contains a `globalconfig:ViLowLatencyMode` key, although the HDMI `ConfigBypassVpss()` routine examined separately parses `globalconfig:UHDVideoMode`, not that low-latency key.
 - The stock launcher/source APKs are signed with the public AOSP platform test certificate, making a carefully designed platform-signed replacement shell plausible on this unit.
+- The working HDMI-CEC implementation is the proprietary HiSilicon middleware, not Android's framework `HdmiControlService` on this build.
+- The HiSilicon CEC API discovers the attached Apple TV by OSD name and logical address.
+- The vendor framework exposes CEC wake/standby options, HDMI/CEC/Ethernet wake-source enums, AP standby, and `shutdown` / `str` / `lightsleep` / `lowpower` suspend modes.
+- The tested Yaber configuration currently uses `persist.sys.suspend.mode=shutdown`; an Apple TV wake test did not power the projector back on.
+- `WAKEUP_HDMI` is enabled in the current power-source mask, while system-level `WAKEUP_CEC` is not; the TIF CEC layer independently reports CEC wake enabled.
 
 ## Repository map
 
@@ -30,6 +35,7 @@ This repository intentionally contains **facts, scripts, command recipes, and sm
 - `docs/firmware.md` — firmware/build properties
 - `docs/architecture.md` — Android/Newlink/HiSilicon process and package architecture
 - `docs/hdmi.md` — HDMI source and TV-input behavior
+- `docs/power-and-cec.md` — power modes, wake sources, proprietary CEC, and Apple TV wake investigation
 - `docs/game-mode.md` — hidden Game Mode investigation and conclusions
 - `docs/api.md` — recovered HiSilicon Java/native API surface
 - `docs/ota.md` — OTA findings and checksum warning
@@ -77,7 +83,10 @@ Key additions:
 - `research/evidence/game-mode-vpss-1080p60.log` — direct VPSS-bypass proof
 - `research/evidence/java-game-mode-command-trace.log` — `0x1030`/`0x1031` trace
 - `research/evidence/game-mode-pq-state.txt` — unchanged public PQ getters
+- `research/evidence/power-cec-runtime-20261124.txt` — sanitized CEC/power runtime state and experiments
 - `research/symbols/` — curated Java/native API and symbol inventories
+- `research/frida/cec-inspect.js` — read-only proprietary CEC inspector
+- `research/frida/power-state.js` — read-only power/wakeup inspector
 - `research/manifests/binary-fingerprints.md` — binary identity guidance
 - `scripts/extract-game-mode-research.sh` — reproduce targeted disassembly
 - `scripts/hash-research-inputs.sh` — generate local SHA-256 fingerprints

@@ -21,6 +21,17 @@ to establish them.
 | `globalconfig:ViLowLatencyMode` exists | native string inventory |
 | Stock source/launcher use the public AOSP platform test cert | APK signing-certificate inspection |
 | Source IDs include HDMI1=11 and HDMI2=10 | source-app/API observations |
+| Proprietary HiSilicon middleware is the working CEC owner | runtime `HiMW_rxcecctrl` traffic from logical address 0 plus Android framework address-allocation failure |
+| Apple TV is discoverable through vendor CEC API | `HdmiCECImpl.getDeviceList()` returned logical address 4 / OSD name `Apple TV` |
+| Android framework CEC cannot allocate a local TV address | `HdmiControlService: Failed to allocate address:[device_type:0]` after successful pings at 0 and 14 |
+| TIF CEC option IDs 0-4 are mapped | `EnumTifCecOption` reflection from exact `HitvShare` framework |
+| Wake-source IDs 0-12 are mapped | `EnumWakeupMode` reflection from exact `HitvShare` framework |
+| Vendor suspend modes include `lightsleep`, `lowpower`, `shutdown`, and `str` | `EnumStandbyMode` reflection |
+| Tested unit currently uses full `shutdown` mode | `persist.sys.suspend.mode=shutdown` plus cold-boot behavior after normal power-off |
+| AP standby is a real writable vendor control | reversible `enableAPStandby(true/false)` runtime probe |
+| System wake mask currently has HDMI enabled and CEC disabled | `getSrcWakeupEnable()` runtime dump |
+| TIF CEC wake is independently enabled | `getTifCecOption(TIF_CEC_OPTION_WAKEUP)` runtime dump |
+| User-facing HDMI labels do not map 1:1 to TIF/source/CEC IDs | trace of `HDMI0000C3` -> port 3 -> source 11/HDMI3 -> CEC 0x3000 while Newlink stored `zysys.source.hdmi1` |
 | Launcher has measurable jank on stock firmware | `research/local-sanitized/baseline/launcher-framestats.txt` |
 
 ## Evidence quality
@@ -33,3 +44,23 @@ There are three useful evidence classes in this repository:
 3. **Inference** — conclusions that combine runtime and static evidence.
 
 Whenever possible, documentation distinguishes direct proof from inference.
+
+
+## Power / CEC evidence
+
+The public-safe runtime excerpt for the current power/CEC investigation is:
+
+```text
+research/evidence/power-cec-runtime-20261124.txt
+```
+
+It includes the Android framework CEC allocation failure, proprietary CEC
+device discovery, runtime wake-source state, TIF CEC option state, AP-standby
+probe, wake-source setter behavior, and the failed Apple TV wake experiment.
+
+Read-only reproduction helpers:
+
+```text
+research/frida/cec-inspect.js
+research/frida/power-state.js
+```
