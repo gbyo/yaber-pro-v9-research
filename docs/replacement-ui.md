@@ -96,3 +96,67 @@ Reasonable goals:
 4. Do not replace the default launcher until the custom shell has been tested extensively.
 5. Keep an ADB recovery command documented.
 6. Only after stability testing, consider making the custom shell the default HOME handler.
+
+
+## CEC integration guidance
+
+The replacement UI should use the proprietary HiSilicon CEC layer exposed by `HitvManager.getHdmiCEC()`.
+
+Useful proven capabilities include:
+
+- CEC device discovery
+- OSD-name retrieval
+- logical-address retrieval
+- vendor/source-port metadata
+- device selection API
+- UI/menu command API
+- vendor CEC option API
+
+The tested stack discovered an attached Apple TV by name.
+
+Do not enable Android framework `HdmiControlService` as part of the replacement shell. On the tested firmware it failed to allocate a local TV logical address while the proprietary middleware was already acting as the TV.
+
+## HDMI identity model
+
+Do not hardcode a single numbering scheme for HDMI.
+
+Keep separate concepts for:
+
+- user-facing product label
+- Android TV-input ID
+- TIF physical port
+- HiSilicon source ID
+- CEC physical address
+- discovered CEC device
+
+For example, one observed path involved `HDMI0000C3`, TIF port 3, HiSilicon source 11 / HDMI3, CEC path `0x3000`, while Newlink stored the product-facing property `zysys.source.hdmi1`.
+
+The UI should resolve these relationships dynamically.
+
+## Power integration guidance
+
+Early replacement builds should leave the stock power services and power-button path intact.
+
+Current tested state:
+
+```text
+persist.sys.suspend.mode=shutdown
+AP standby=false
+system WAKEUP_HDMI=true
+system WAKEUP_CEC=false
+TIF CEC WAKEUP=true
+```
+
+Do not expose `str`, `lightsleep`, `lowpower`, AP standby, or system wake-source mutation as normal user settings yet.
+
+The vendor framework clearly contains those features, but their safe behavior on this exact projector has not been established.
+
+Read-only diagnostics may display:
+
+- current suspend mode
+- AP-standby state
+- wake-source mask
+- TIF CEC option state
+- discovered CEC devices
+
+See `docs/power-and-cec.md`.
